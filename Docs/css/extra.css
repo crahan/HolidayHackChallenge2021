@@ -1,0 +1,7 @@
+div.md-content p img.border {
+    border: 1px solid #dfdfdf;
+}
+
+article.md-content__inner {
+    padding-bottom: 0.8rem;
+}

@@ -1,0 +1,77 @@
+site_name: "2021 SANS HHC Write-Up"
+site_author: Thomas Bouve
+site_url: https://n00.be/HolidayHackChallenge2021/
+copyright: Copyright &copy; 2021 <a href="https://n00.be">Thomas Bouve</a>
+theme:
+  icon:
+    # logo: fontawesome/regular/snowflake
+    # logo: fontawesome/solid/sleigh
+    # logo: fontawesome/solid/tree
+    # logo: fontawesome/solid/candy-cane
+    logo: fontawesome/solid/snowman
+  name: material
+  favicon: img/misc/favicon.ico
+  features:
+    - navigation.instant
+    - toc.integrate
+    #- navigation.sections
+    #- navigation.tabs
+    #- navigation.tabs.sticky
+    #- navigation.instant
+    #- navigation.sections
+    #- navigation.expand
+  palette:
+    scheme: default
+    primary: darkblue
+    accent: darkblue
+extra:
+  social:
+    - icon: fontawesome/brands/twitter
+      link: https://twitter.com/crahan
+      name: CraHan on Twitter
+    - icon: fontawesome/brands/github
+      link: https://github.com/crahan
+      name: CraHan on GitHub
+    - icon: fontawesome/brands/instagram
+      link: https://www.instagram.com/crahan/
+      name: CraHan on Instagram
+extra_css:
+  - css/extra.css
+extra_javascript:
+  - https://cdnjs.cloudflare.com/ajax/libs/tablesort/5.2.1/tablesort.min.js
+  - js/tables.js
+markdown_extensions:
+  - abbr
+  - attr_list
+  - admonition
+  - meta
+  - footnotes
+  - def_list
+  - toc:
+      permalink: ⚓︎
+      toc_depth: 2
+  - pymdownx.details
+  - pymdownx.keys
+  - pymdownx.details
+  - pymdownx.tabbed
+  - pymdownx.superfences
+  - pymdownx.highlight
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+  - pymdownx.tasklist:
+      custom_checkbox: true
+nav:
+- Welcome: 'index.md'
+- Objectives:
+  - Objective Title X: 'objectives/oX.md'
+- Terminal Hints:
+  - Hint Title X: 'hints/hX.md'
+- Easter Eggs: 'easter_eggs.md'
+- ASCII Map: 'map.md'
+
+
+
+
