@@ -41,7 +41,7 @@ There's a second science-fiction movie reference when you first talk to Numby Ch
 
 If you ride the Santavator or Frostavator to a floor that does not exist you end up in an area named *\_\_Shenanigans\_\_*. The room's [backdrop](./img/misc/turtles.jpg) is an image of [the Discworld](https://en.wikipedia.org/wiki/Discworld_(world)), a fictional setting for all of Terry Pratchett's Discworld fantasy novels. How to get here is explained as part of the [Frostavator](./hints/h13.md#shenanigans) terminal write-up.
 
-![Shenanigans area](./img/misc/shenanigans_area.png){: class=border }
+![Shenanigans area](./img/misc/shenanigans_area.png){ class=border }
 
 
 ## Those darn interns... amirite?
@@ -71,14 +71,14 @@ There's also some whimsicalness going on with some of the image assets in Jack's
 
 Another funny asset name can be found as part of the satellite dish contraption that Crunchy Squishter created to communicate with the Frostians. The asset name of the umbrella, `ellaellaeheheh.png`, is a reference to the song [Umbrella](https://www.youtube.com/watch?v=CvBfHwUxHIk) by Rihanna.
 
-![Umbrella](./img/misc/ellaellaeheheh.png){: class=border }
+![Umbrella](./img/misc/ellaellaeheheh.png){ class=border }
 
 
 ## Painting peephole
 
 Last year's painting has been replaced, leaving a discolored outline on the wall. The [peephole eyes](https://n00.be/HolidayHackChallenge2020/easter_eggs/#painting-peephole-trope) are still present though!
 
-![Eyes](./img/misc/eyes.png){: class=border }
+![Eyes](./img/misc/eyes.png){ class=border }
 
 
 ## Castle Artwork
@@ -100,10 +100,10 @@ The phrase *Ille te videt dum dormit* on the ElfU logo is Latin and translates t
 The WebSocket at `wss://2021.kringlecon.com/ws` is a lot of fun to play around with and others have gone above and beyond to write some [amazing helper scripts](https://github.com/pollev/santas_little_helper) that let you navigate the game without using the web UI. The `WS_OHHIMARK` and `DENNIS_NEDRY` WebSocket response codes are references to the movies [The Room](https://www.youtube.com/watch?v=aekfPU0SwNw) and [Jurassic Park](https://www.youtube.com/watch?v=aekfPU0SwNw), respectively.
 
 === ":material-message-text: WS_OHHIMARK"
-    ![WS_OHHIMARK](./img/misc/oh_hi_mark.png){: class=border }
+    ![WS_OHHIMARK](./img/misc/oh_hi_mark.png){ class=border }
 
 === ":material-message-text: DENNIS_NEDRY"
-    ![DENNIS_NEDRY](./img/misc/dennis_nedry.png){: class=border }
+    ![DENNIS_NEDRY](./img/misc/dennis_nedry.png){ class=border }
 
 
 ## Stolen KringleCon talks

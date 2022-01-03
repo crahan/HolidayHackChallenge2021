@@ -8,7 +8,7 @@ theme:
     # logo: fontawesome/solid/sleigh
     # logo: fontawesome/solid/tree
     # logo: fontawesome/solid/candy-cane
-    logo: fontawesome/solid/rocket
+    logo: material/rocket-launch
   name: material
   favicon: img/misc/favicon.ico
   features:
