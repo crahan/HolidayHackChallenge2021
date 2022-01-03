@@ -8,7 +8,7 @@ theme:
     # logo: fontawesome/solid/sleigh
     # logo: fontawesome/solid/tree
     # logo: fontawesome/solid/candy-cane
-    logo: fontawesome/solid/snowman
+    logo: fontawesome/solid/rocket
   name: material
   favicon: img/misc/favicon.ico
   features:
@@ -39,7 +39,7 @@ extra_css:
   - css/extra.css
 extra_javascript:
   - https://cdnjs.cloudflare.com/ajax/libs/tablesort/5.2.1/tablesort.min.js
-  - js/tables.js
+  - js/tablesort.js
 markdown_extensions:
   - abbr
   - attr_list
@@ -66,12 +66,28 @@ markdown_extensions:
 nav:
 - Welcome: 'index.md'
 - Objectives:
-  - Objective Title X: 'objectives/oX.md'
+  - Where is Caramel Santaigo?: 'objectives/o2.md'
+  - Thaw Frost Tower's Entrance: 'objectives/o3.md'
+  - Slot Machine Investigation: 'objectives/o4.md'
+  - Strange USB Device: 'objectives/o5.md'
+  - Shellcode Primer: 'objectives/o6.md'
+  - Printer Exploitation: 'objectives/o7.md'
+  - Kerberoasting on an Open Fire: 'objectives/o8.md'
+  - Splunk!: 'objectives/o9.md'
+  - Now Hiring!: 'objectives/o10.md'
+  - Customer Complaint Analysis: 'objectives/o11.md'
+  - Frost Tower Website Checkup: 'objectives/o12.md'
+  - FPGA Programming: 'objectives/o13.md'
 - Terminal Hints:
-  - Hint Title X: 'hints/hX.md'
+  - Exif Metadata: 'hints/h2.md'
+  - Grepping for Gold: 'hints/h3.md'
+  - Logic Munchers: 'hints/h4.md'
+  - IPv6 Sandbox: 'hints/h5.md'
+  - Holiday Hero: 'hints/h6.md'
+  - HoHo... No: 'hints/h8.md'
+  - Yara Analysis: 'hints/h9.md'
+  - IMDS Exploration: 'hints/h10.md'
+  - Strace Ltrace Retrace: 'hints/h11.md'
+  - The Elf C0de: 'hints/h12.md'
+  - Frostavator: 'hints/h13.md'
 - Easter Eggs: 'easter_eggs.md'
-- ASCII Map: 'map.md'
-
-
-
-

@@ -1,0 +1,766 @@
+Starting enum4linux v0.9.1 ( http://labs.portcullis.co.uk/application/enum4linux/ ) on Fri Dec 31 14:06:01 2021
+
+ =========================================( Target Information )=========================================
+
+Target ........... 172.17.0.3
+RID Range ........ 500-550,1000-1050
+Username ......... ''
+Password ......... ''
+Known Usernames .. administrator, guest, krbtgt, domain admins, root, bin, none
+
+
+ =============================( Enumerating Workgroup/Domain on 172.17.0.3 )=============================
+
+
+[+] Got domain/workgroup name: ELFU
+
+
+ =================================( Nbtstat Information for 172.17.0.3 )=================================
+
+Looking up status of 172.17.0.3
+	SHARE30         <00> -         M <ACTIVE>  Workstation Service
+	SHARE30         <03> -         M <ACTIVE>  Messenger Service
+	SHARE30         <20> -         M <ACTIVE>  File Server Service
+	ELFU            <1c> - <GROUP> M <ACTIVE>  Domain Controllers
+	ELFU            <00> - <GROUP> M <ACTIVE>  Domain/Workgroup Name
+	__SAMBA__       <00> - <GROUP> M <ACTIVE> <PERMANENT>  Domain/Workgroup Name
+
+	MAC Address = 00-00-00-00-00-00
+
+ ====================================( Session Check on 172.17.0.3 )====================================
+
+
+[+] Server 172.17.0.3 allows sessions using username '', password ''
+
+
+ =================================( Getting domain SID for 172.17.0.3 )=================================
+
+Domain Name: ELFU
+Domain Sid: S-1-5-21-2037236562-2033616742-1485113978
+
+[+] Host is part of a domain (not a workgroup)
+
+
+ ====================================( OS information on 172.17.0.3 )====================================
+
+
+[E] Can't get OS info with smbclient
+
+
+[+] Got OS info for 172.17.0.3 from srvinfo:
+	SHARE30        Wk Sv PrQ Unx NT SNT Samba 4.3.11-Ubuntu
+	platform_id     :	500
+	os version      :	6.1
+	server type     :	0x809a03
+
+
+ ========================================( Users on 172.17.0.3 )========================================
+
+index: 0x1 RID: 0x4f1 acb: 0x00000210 Account: victoriawashington	Name: victoriawashington	Desc:
+index: 0x2 RID: 0x452 acb: 0x00000210 Account: remote_elf	Name: Remote Elf	Desc:
+index: 0x3 RID: 0x543 acb: 0x00000210 Account: samanthahankerson	Name: samanthahankerson	Desc:
+index: 0x4 RID: 0x5b1 acb: 0x00000210 Account: opheliahankerson	Name: opheliahankerson	Desc:
+index: 0x5 RID: 0x563 acb: 0x00000210 Account: quincywashington	Name: quincywashington	Desc:
+index: 0x6 RID: 0x507 acb: 0x00000210 Account: victoriavictoria	Name: victoriavictoria	Desc:
+index: 0x7 RID: 0x539 acb: 0x00000210 Account: alicewashington	Name: alicewashington	Desc:
+index: 0x8 RID: 0x589 acb: 0x00000210 Account: charlenecharles	Name: charlenecharles	Desc:
+index: 0x9 RID: 0x45b acb: 0x00000210 Account: charleneneptune	Name: charleneneptune	Desc:
+index: 0xa RID: 0x571 acb: 0x00000210 Account: dwanewashington	Name: dwanewashington	Desc:
+index: 0xb RID: 0x47d acb: 0x00000210 Account: forrestvictoria	Name: forrestvictoria	Desc:
+index: 0xc RID: 0x56d acb: 0x00000210 Account: samanthadruidia	Name: samanthadruidia	Desc:
+index: 0xd RID: 0x517 acb: 0x00000210 Account: samanthaneptune	Name: samanthaneptune	Desc:
+index: 0xe RID: 0x471 acb: 0x00000210 Account: ulysseslovering	Name: ulysseslovering	Desc:
+index: 0xf RID: 0x45f acb: 0x00000210 Account: victoriacharles	Name: victoriacharles	Desc:
+index: 0x10 RID: 0x547 acb: 0x00000210 Account: victoriadruidia	Name: victoriadruidia	Desc:
+index: 0x11 RID: 0x5ad acb: 0x00000210 Account: victorianeptune	Name: victorianeptune	Desc:
+index: 0x12 RID: 0x585 acb: 0x00000210 Account: wandawashington	Name: wandawashington	Desc:
+index: 0x13 RID: 0x4e9 acb: 0x00000210 Account: alicehankerson	Name: alicehankerson	Desc:
+index: 0x14 RID: 0x541 acb: 0x00000210 Account: charlenexavier	Name: charlenexavier	Desc:
+index: 0x15 RID: 0x5a7 acb: 0x00000210 Account: dwanehankerson	Name: dwanehankerson	Desc:
+index: 0x16 RID: 0x493 acb: 0x00000210 Account: forrestcharles	Name: forrestcharles	Desc:
+index: 0x17 RID: 0x525 acb: 0x00000210 Account: forrestneptune	Name: forrestneptune	Desc:
+index: 0x18 RID: 0x5cb acb: 0x00000210 Account: ingridvictoria	Name: ingridvictoria	Desc:
+index: 0x19 RID: 0x4ff acb: 0x00000210 Account: jorgehankerson	Name: jorgehankerson	Desc:
+index: 0x1a RID: 0x501 acb: 0x00000210 Account: marywashington	Name: marywashington	Desc:
+index: 0x1b RID: 0x49b acb: 0x00000210 Account: opheliakilleen	Name: opheliakilleen	Desc:
+index: 0x1c RID: 0x599 acb: 0x00000210 Account: paulwashington	Name: paulwashington	Desc:
+index: 0x1d RID: 0x4ed acb: 0x00000210 Account: quincylovering	Name: quincylovering	Desc:
+index: 0x1e RID: 0x4f9 acb: 0x00000210 Account: samanthairving	Name: samanthairving	Desc:
+index: 0x1f RID: 0x4a5 acb: 0x00000210 Account: samanthatrebek	Name: samanthatrebek	Desc:
+index: 0x20 RID: 0x5cf acb: 0x00000210 Account: ulyssesbinford	Name: ulyssesbinford	Desc:
+index: 0x21 RID: 0x5c1 acb: 0x00000210 Account: victoriaabbott	Name: victoriaabbott	Desc:
+index: 0x22 RID: 0x491 acb: 0x00000210 Account: victoriageorge	Name: victoriageorge	Desc:
+index: 0x23 RID: 0x513 acb: 0x00000210 Account: victoriaqueior	Name: victoriaqueior	Desc:
+index: 0x24 RID: 0x4a1 acb: 0x00000210 Account: yolandabinford	Name: yolandabinford	Desc:
+index: 0x25 RID: 0x5ab acb: 0x00000210 Account: yolandakilleen	Name: yolandakilleen	Desc:
+index: 0x26 RID: 0x533 acb: 0x00000210 Account: yolandaneptune	Name: yolandaneptune	Desc:
+index: 0x27 RID: 0x515 acb: 0x00000210 Account: charleneellis	Name: charleneellis	Desc:
+index: 0x28 RID: 0x5a9 acb: 0x00000210 Account: charlenejones	Name: charlenejones	Desc:
+index: 0x29 RID: 0x46f acb: 0x00000210 Account: charlenesmith	Name: charlenesmith	Desc:
+index: 0x2a RID: 0x4c7 acb: 0x00000210 Account: forrestyankee	Name: forrestyankee	Desc:
+index: 0x2b RID: 0x573 acb: 0x00000210 Account: gildalovering	Name: gildalovering	Desc:
+index: 0x2c RID: 0x4cb acb: 0x00000210 Account: hankhankerson	Name: hankhankerson	Desc:
+index: 0x2d RID: 0x49f acb: 0x00000210 Account: ingridbinford	Name: ingridbinford	Desc:
+index: 0x2e RID: 0x53f acb: 0x00000210 Account: ingridneptune	Name: ingridneptune	Desc:
+index: 0x2f RID: 0x5bd acb: 0x00000210 Account: kimwashington	Name: kimwashington	Desc:
+index: 0x30 RID: 0x46b acb: 0x00000210 Account: maryhankerson	Name: maryhankerson	Desc:
+index: 0x31 RID: 0x5df acb: 0x00000210 Account: opheliatrebek	Name: opheliatrebek	Desc:
+index: 0x32 RID: 0x50d acb: 0x00000210 Account: opheliayankee	Name: opheliayankee	Desc:
+index: 0x33 RID: 0x467 acb: 0x00000210 Account: paulhankerson	Name: paulhankerson	Desc:
+index: 0x34 RID: 0x487 acb: 0x00000210 Account: quincycharles	Name: quincycharles	Desc:
+index: 0x35 RID: 0x4e7 acb: 0x00000210 Account: quincydruidia	Name: quincydruidia	Desc:
+index: 0x36 RID: 0x523 acb: 0x00000210 Account: samanthaolson	Name: samanthaolson	Desc:
+index: 0x37 RID: 0x483 acb: 0x00000210 Account: samanthazebra	Name: samanthazebra	Desc:
+index: 0x38 RID: 0x4a3 acb: 0x00000210 Account: trevorbinford	Name: trevorbinford	Desc:
+index: 0x39 RID: 0x53d acb: 0x00000210 Account: trevorkilleen	Name: trevorkilleen	Desc:
+index: 0x3a RID: 0x4fb acb: 0x00000210 Account: ulyssesgeorge	Name: ulyssesgeorge	Desc:
+index: 0x3b RID: 0x4df acb: 0x00000210 Account: ulyssesirving	Name: ulyssesirving	Desc:
+index: 0x3c RID: 0x46d acb: 0x00000210 Account: ulyssespenrod	Name: ulyssespenrod	Desc:
+index: 0x3d RID: 0x463 acb: 0x00000210 Account: ulyssestrebek	Name: ulyssestrebek	Desc:
+index: 0x3e RID: 0x5d7 acb: 0x00000210 Account: ulyssesxavier	Name: ulyssesxavier	Desc:
+index: 0x3f RID: 0x58b acb: 0x00000210 Account: victoriaolson	Name: victoriaolson	Desc:
+index: 0x40 RID: 0x583 acb: 0x00000210 Account: victoriazebra	Name: victoriazebra	Desc:
+index: 0x41 RID: 0x497 acb: 0x00000210 Account: xavierdruidia	Name: xavierdruidia	Desc:
+index: 0x42 RID: 0x48f acb: 0x00000210 Account: yolandaabbott	Name: yolandaabbott	Desc:
+index: 0x43 RID: 0x535 acb: 0x00000210 Account: yolandapenrod	Name: yolandapenrod	Desc:
+index: 0x44 RID: 0x479 acb: 0x00000210 Account: yolandayankee	Name: yolandayankee	Desc:
+index: 0x45 RID: 0x55d acb: 0x00000210 Account: zeldalovering	Name: zeldalovering	Desc:
+index: 0x46 RID: 0x5a3 acb: 0x00000210 Account: alicebinford	Name: alicebinford	Desc:
+index: 0x47 RID: 0x559 acb: 0x00000210 Account: alicedruidia	Name: alicedruidia	Desc:
+index: 0x48 RID: 0x4a7 acb: 0x00000210 Account: dwanekilleen	Name: dwanekilleen	Desc:
+index: 0x49 RID: 0x575 acb: 0x00000210 Account: dwaneneptune	Name: dwaneneptune	Desc:
+index: 0x4a RID: 0x565 acb: 0x00000210 Account: ednalovering	Name: ednalovering	Desc:
+index: 0x4b RID: 0x5b9 acb: 0x00000210 Account: gildacharles	Name: gildacharles	Desc:
+index: 0x4c RID: 0x5b3 acb: 0x00000210 Account: gildakilleen	Name: gildakilleen	Desc:
+index: 0x4d RID: 0x4dd acb: 0x00000210 Account: hankvictoria	Name: hankvictoria	Desc:
+index: 0x4e RID: 0x5c3 acb: 0x00000210 Account: ingridgeorge	Name: ingridgeorge	Desc:
+index: 0x4f RID: 0x579 acb: 0x00000210 Account: ingridqueior	Name: ingridqueior	Desc:
+index: 0x50 RID: 0x527 acb: 0x00000210 Account: ingridxavier	Name: ingridxavier	Desc:
+index: 0x51 RID: 0x51b acb: 0x00000210 Account: jorgebinford	Name: jorgebinford	Desc:
+index: 0x52 RID: 0x5a5 acb: 0x00000210 Account: kimhankerson	Name: kimhankerson	Desc:
+index: 0x53 RID: 0x4b3 acb: 0x00000210 Account: maryvictoria	Name: maryvictoria	Desc:
+index: 0x54 RID: 0x5af acb: 0x00000210 Account: noahvictoria	Name: noahvictoria	Desc:
+index: 0x55 RID: 0x4eb acb: 0x00000210 Account: opheliaellis	Name: opheliaellis	Desc:
+index: 0x56 RID: 0x4db acb: 0x00000210 Account: opheliajones	Name: opheliajones	Desc:
+index: 0x57 RID: 0x495 acb: 0x00000210 Account: opheliaolson	Name: opheliaolson	Desc:
+index: 0x58 RID: 0x4bb acb: 0x00000210 Account: opheliasmith	Name: opheliasmith	Desc:
+index: 0x59 RID: 0x4b5 acb: 0x00000210 Account: opheliazebra	Name: opheliazebra	Desc:
+index: 0x5a RID: 0x489 acb: 0x00000210 Account: paulvictoria	Name: paulvictoria	Desc:
+index: 0x5b RID: 0x59f acb: 0x00000210 Account: quincyabbott	Name: quincyabbott	Desc:
+index: 0x5c RID: 0x505 acb: 0x00000210 Account: quincygeorge	Name: quincygeorge	Desc:
+index: 0x5d RID: 0x4b7 acb: 0x00000210 Account: quincytrebek	Name: quincytrebek	Desc:
+index: 0x5e RID: 0x5d3 acb: 0x00000210 Account: quincyxavier	Name: quincyxavier	Desc:
+index: 0x5f RID: 0x4c1 acb: 0x00000210 Account: quincyyankee	Name: quincyyankee	Desc:
+index: 0x60 RID: 0x59d acb: 0x00000210 Account: trevorpenrod	Name: trevorpenrod	Desc:
+index: 0x61 RID: 0x5e3 acb: 0x00000210 Account: ulyssesolson	Name: ulyssesolson	Desc:
+index: 0x62 RID: 0x567 acb: 0x00000210 Account: wandabinford	Name: wandabinford	Desc:
+index: 0x63 RID: 0x47b acb: 0x00000210 Account: wandaneptune	Name: wandaneptune	Desc:
+index: 0x64 RID: 0x4d7 acb: 0x00000210 Account: xavierabbott	Name: xavierabbott	Desc:
+index: 0x65 RID: 0x48b acb: 0x00000210 Account: xavierirving	Name: xavierirving	Desc:
+index: 0x66 RID: 0x569 acb: 0x00000210 Account: zeldabinford	Name: zeldabinford	Desc:
+index: 0x67 RID: 0x4bd acb: 0x00000210 Account: zeldacharles	Name: zeldacharles	Desc:
+index: 0x68 RID: 0x5c9 acb: 0x00000210 Account: zeldakilleen	Name: zeldakilleen	Desc:
+index: 0x69 RID: 0x5d9 acb: 0x00000210 Account: alicequeior	Name: alicequeior	Desc:
+index: 0x6a RID: 0x555 acb: 0x00000210 Account: dwaneyankee	Name: dwaneyankee	Desc:
+index: 0x6b RID: 0x4fd acb: 0x00000210 Account: ednabinford	Name: ednabinford	Desc:
+index: 0x6c RID: 0x59b acb: 0x00000210 Account: ednadruidia	Name: ednadruidia	Desc:
+index: 0x6d RID: 0x5cd acb: 0x00000210 Account: gildaabbott	Name: gildaabbott	Desc:
+index: 0x6e RID: 0x4bf acb: 0x00000210 Account: gildairving	Name: gildairving	Desc:
+index: 0x6f RID: 0x499 acb: 0x00000210 Account: gildapenrod	Name: gildapenrod	Desc:
+index: 0x70 RID: 0x4d1 acb: 0x00000210 Account: hankbinford	Name: hankbinford	Desc:
+index: 0x71 RID: 0x509 acb: 0x00000210 Account: ingridzebra	Name: ingridzebra	Desc:
+index: 0x72 RID: 0x4f7 acb: 0x00000210 Account: jorgepenrod	Name: jorgepenrod	Desc:
+index: 0x73 RID: 0x47f acb: 0x00000210 Account: jorgetrebek	Name: jorgetrebek	Desc:
+index: 0x74 RID: 0x5dd acb: 0x00000210 Account: lukedruidia	Name: lukedruidia	Desc:
+index: 0x75 RID: 0x5bf acb: 0x00000210 Account: lukekilleen	Name: lukekilleen	Desc:
+index: 0x76 RID: 0x4ab acb: 0x00000210 Account: marydruidia	Name: marydruidia	Desc:
+index: 0x77 RID: 0x52f acb: 0x00000210 Account: marykilleen	Name: marykilleen	Desc:
+index: 0x78 RID: 0x591 acb: 0x00000210 Account: noahdruidia	Name: noahdruidia	Desc:
+index: 0x79 RID: 0x54b acb: 0x00000210 Account: opheliamoss	Name: opheliamoss	Desc:
+index: 0x7a RID: 0x50b acb: 0x00000210 Account: quincyellis	Name: quincyellis	Desc:
+index: 0x7b RID: 0x469 acb: 0x00000210 Account: quincyjones	Name: quincyjones	Desc:
+index: 0x7c RID: 0x561 acb: 0x00000210 Account: rauldruidia	Name: rauldruidia	Desc:
+index: 0x7d RID: 0x4d5 acb: 0x00000210 Account: trevorellis	Name: trevorellis	Desc:
+index: 0x7e RID: 0x5b7 acb: 0x00000210 Account: trevorolson	Name: trevorolson	Desc:
+index: 0x7f RID: 0x455 acb: 0x00000210 Account: ulyssesross	Name: ulyssesross	Desc:
+index: 0x80 RID: 0x581 acb: 0x00000210 Account: wandageorge	Name: wandageorge	Desc:
+index: 0x81 RID: 0x577 acb: 0x00000210 Account: wandaqueior	Name: wandaqueior	Desc:
+index: 0x82 RID: 0x48d acb: 0x00000210 Account: wandayankee	Name: wandayankee	Desc:
+index: 0x83 RID: 0x4b1 acb: 0x00000210 Account: xavierolson	Name: xavierolson	Desc:
+index: 0x84 RID: 0x45d acb: 0x00000210 Account: xavierzebra	Name: xavierzebra	Desc:
+index: 0x85 RID: 0x557 acb: 0x00000210 Account: zeldaabbott	Name: zeldaabbott	Desc:
+index: 0x86 RID: 0x4f5 acb: 0x00000210 Account: zeldairving	Name: zeldairving	Desc:
+index: 0x87 RID: 0x51f acb: 0x00000210 Account: alicejones	Name: alicejones	Desc:
+index: 0x88 RID: 0x5b5 acb: 0x00000210 Account: aliceolson	Name: aliceolson	Desc:
+index: 0x89 RID: 0x4f3 acb: 0x00000210 Account: bobbinford	Name: bobbinford	Desc:
+index: 0x8a RID: 0x4b9 acb: 0x00000210 Account: bobdruidia	Name: bobdruidia	Desc:
+index: 0x8b RID: 0x5db acb: 0x00000210 Account: ednaabbott	Name: ednaabbott	Desc:
+index: 0x8c RID: 0x549 acb: 0x00000210 Account: ednaulrich	Name: ednaulrich	Desc:
+index: 0x8d RID: 0x4c9 acb: 0x00000210 Account: gildajones	Name: gildajones	Desc:
+index: 0x8e RID: 0x4e1 acb: 0x00000210 Account: hankabbott	Name: hankabbott	Desc:
+index: 0x8f RID: 0x477 acb: 0x00000210 Account: hankgeorge	Name: hankgeorge	Desc:
+index: 0x90 RID: 0x57d acb: 0x00000210 Account: hankirving	Name: hankirving	Desc:
+index: 0x91 RID: 0x473 acb: 0x00000210 Account: hankqueior	Name: hankqueior	Desc:
+index: 0x92 RID: 0x58d acb: 0x00000210 Account: jorgejones	Name: jorgejones	Desc:
+index: 0x93 RID: 0x5d5 acb: 0x00000210 Account: jorgeolson	Name: jorgeolson	Desc:
+index: 0x94 RID: 0x4d9 acb: 0x00000210 Account: jorgesmith	Name: jorgesmith	Desc:
+index: 0x95 RID: 0x4ad acb: 0x00000210 Account: kimkilleen	Name: kimkilleen	Desc:
+index: 0x96 RID: 0x531 acb: 0x00000210 Account: kimneptune	Name: kimneptune	Desc:
+index: 0x97 RID: 0x4af acb: 0x00000210 Account: lukegeorge	Name: lukegeorge	Desc:
+index: 0x98 RID: 0x52b acb: 0x00000210 Account: lukeirving	Name: lukeirving	Desc:
+index: 0x99 RID: 0x521 acb: 0x00000210 Account: luketrebek	Name: luketrebek	Desc:
+index: 0x9a RID: 0x593 acb: 0x00000210 Account: lukeulrich	Name: lukeulrich	Desc:
+index: 0x9b RID: 0x465 acb: 0x00000210 Account: lukeyankee	Name: lukeyankee	Desc:
+index: 0x9c RID: 0x551 acb: 0x00000210 Account: maryqueior	Name: maryqueior	Desc:
+index: 0x9d RID: 0x537 acb: 0x00000210 Account: marytrebek	Name: marytrebek	Desc:
+index: 0x9e RID: 0x529 acb: 0x00000210 Account: maryyankee	Name: maryyankee	Desc:
+index: 0x9f RID: 0x485 acb: 0x00000210 Account: noahgeorge	Name: noahgeorge	Desc:
+index: 0xa0 RID: 0x54d acb: 0x00000210 Account: noahulrich	Name: noahulrich	Desc:
+index: 0xa1 RID: 0x50f acb: 0x00000210 Account: noahyankee	Name: noahyankee	Desc:
+index: 0xa2 RID: 0x56b acb: 0x00000210 Account: paulirving	Name: paulirving	Desc:
+index: 0xa3 RID: 0x4ef acb: 0x00000210 Account: paulxavier	Name: paulxavier	Desc:
+index: 0xa4 RID: 0x461 acb: 0x00000210 Account: paulyankee	Name: paulyankee	Desc:
+index: 0xa5 RID: 0x54f acb: 0x00000210 Account: raulgeorge	Name: raulgeorge	Desc:
+index: 0xa6 RID: 0x459 acb: 0x00000210 Account: raulpenrod	Name: raulpenrod	Desc:
+index: 0xa7 RID: 0x5e5 acb: 0x00000210 Account: raultrebek	Name: raultrebek	Desc:
+index: 0xa8 RID: 0x5c5 acb: 0x00000210 Account: raulyankee	Name: raulyankee	Desc:
+index: 0xa9 RID: 0x587 acb: 0x00000210 Account: ulyssesfox	Name: ulyssesfox	Desc:
+index: 0xaa RID: 0x57b acb: 0x00000210 Account: wandaellis	Name: wandaellis	Desc:
+index: 0xab RID: 0x481 acb: 0x00000210 Account: zeldaellis	Name: zeldaellis	Desc:
+index: 0xac RID: 0x511 acb: 0x00000210 Account: bobirving	Name: bobirving	Desc:
+index: 0xad RID: 0x58f acb: 0x00000210 Account: bobtrebek	Name: bobtrebek	Desc:
+index: 0xae RID: 0x4e3 acb: 0x00000210 Account: bobulrich	Name: bobulrich	Desc:
+index: 0xaf RID: 0x55b acb: 0x00000210 Account: bobxavier	Name: bobxavier	Desc:
+index: 0xb0 RID: 0x5c7 acb: 0x00000210 Account: dwanemoss	Name: dwanemoss	Desc:
+index: 0xb1 RID: 0x597 acb: 0x00000210 Account: dwaneross	Name: dwaneross	Desc:
+index: 0xb2 RID: 0x519 acb: 0x00000210 Account: ednajones	Name: ednajones	Desc:
+index: 0xb3 RID: 0x4cd acb: 0x00000210 Account: hankjones	Name: hankjones	Desc:
+index: 0xb4 RID: 0x55f acb: 0x00000210 Account: hankzebra	Name: hankzebra	Desc:
+index: 0xb5 RID: 0x5e1 acb: 0x00000210 Account: ingridfox	Name: ingridfox	Desc:
+index: 0xb6 RID: 0x57f acb: 0x00000210 Account: kimabbott	Name: kimabbott	Desc:
+index: 0xb7 RID: 0x4e5 acb: 0x00000210 Account: kimxavier	Name: kimxavier	Desc:
+index: 0xb8 RID: 0x53b acb: 0x00000210 Account: marysmith	Name: marysmith	Desc:
+index: 0xb9 RID: 0x5d1 acb: 0x00000210 Account: noaholson	Name: noaholson	Desc:
+index: 0xba RID: 0x5a1 acb: 0x00000210 Account: paulolson	Name: paulolson	Desc:
+index: 0xbb RID: 0x595 acb: 0x00000210 Account: paulsmith	Name: paulsmith	Desc:
+index: 0xbc RID: 0x553 acb: 0x00000210 Account: quincyfox	Name: quincyfox	Desc:
+index: 0xbd RID: 0x56f acb: 0x00000210 Account: rauljones	Name: rauljones	Desc:
+index: 0xbe RID: 0x503 acb: 0x00000210 Account: raulsmith	Name: raulsmith	Desc:
+index: 0xbf RID: 0x4cf acb: 0x00000210 Account: zeldaross	Name: zeldaross	Desc:
+index: 0xc0 RID: 0x4a9 acb: 0x00000210 Account: alicefox	Name: alicefox	Desc:
+index: 0xc1 RID: 0x457 acb: 0x00000210 Account: bobolson	Name: bobolson	Desc:
+index: 0xc2 RID: 0x4c5 acb: 0x00000210 Account: bobsmith	Name: bobsmith	Desc:
+index: 0xc3 RID: 0x475 acb: 0x00000210 Account: ednamoss	Name: ednamoss	Desc:
+index: 0xc4 RID: 0x5bb acb: 0x00000210 Account: jorgefox	Name: jorgefox	Desc:
+index: 0xc5 RID: 0x545 acb: 0x00000210 Account: paulross	Name: paulross	Desc:
+index: 0xc6 RID: 0x51d acb: 0x00000210 Account: wandafox	Name: wandafox	Desc:
+index: 0xc7 RID: 0x1f4 acb: 0x00000210 Account: Administrator	Name: 	Desc: Built-in account for administering the computer/domain
+index: 0xc8 RID: 0x52d acb: 0x00000210 Account: bobmoss	Name: bobmoss	Desc:
+index: 0xc9 RID: 0x49d acb: 0x00000210 Account: bobross	Name: bobross	Desc:
+index: 0xca RID: 0x4d3 acb: 0x00000210 Account: lukefox	Name: lukefox	Desc:
+index: 0xcb RID: 0x4c3 acb: 0x00000210 Account: noahfox	Name: noahfox	Desc:
+index: 0xcc RID: 0x451 acb: 0x00000210 Account: elfu_svc	Name: ElfU Service	Desc:
+index: 0xcd RID: 0x450 acb: 0x00000210 Account: elfu_admin	Name: ElfU Admin	Desc:
+index: 0xce RID: 0x614 acb: 0x00000210 Account: aaigvfsuza	Name: aaigvfsuza	Desc:
+index: 0xcf RID: 0x62a acb: 0x00000210 Account: bvofqrjnps	Name: bvofqrjnps	Desc:
+index: 0xd0 RID: 0x615 acb: 0x00000210 Account: cojbecjcwu	Name: cojbecjcwu	Desc:
+index: 0xd1 RID: 0x61d acb: 0x00000210 Account: cujbilxiyl	Name: cujbilxiyl	Desc:
+index: 0xd2 RID: 0x618 acb: 0x00000210 Account: dbevvcejny	Name: dbevvcejny	Desc:
+index: 0xd3 RID: 0x619 acb: 0x00000210 Account: hvttrqnacp	Name: hvttrqnacp	Desc:
+index: 0xd4 RID: 0x61b acb: 0x00000210 Account: hxihtavrtu	Name: hxihtavrtu	Desc:
+index: 0xd5 RID: 0x617 acb: 0x00000210 Account: ijshkhssxd	Name: ijshkhssxd	Desc:
+index: 0xd6 RID: 0x616 acb: 0x00000210 Account: jjwxlrkpts	Name: jjwxlrkpts	Desc:
+index: 0xd7 RID: 0x62e acb: 0x00000210 Account: kfhpzwybgj	Name: kfhpzwybgj	Desc:
+index: 0xd8 RID: 0x626 acb: 0x00000210 Account: khqmuharkz	Name: khqmuharkz	Desc:
+index: 0xd9 RID: 0x62b acb: 0x00000210 Account: kjemegwcxf	Name: kjemegwcxf	Desc:
+index: 0xda RID: 0x620 acb: 0x00000210 Account: kvecitaxyy	Name: kvecitaxyy	Desc:
+index: 0xdb RID: 0x624 acb: 0x00000210 Account: lrmldfheus	Name: lrmldfheus	Desc:
+index: 0xdc RID: 0x630 acb: 0x00000210 Account: maunjjeokf	Name: maunjjeokf	Desc:
+index: 0xdd RID: 0x62d acb: 0x00000210 Account: mhfatpfjdr	Name: mhfatpfjdr	Desc:
+index: 0xde RID: 0x623 acb: 0x00000210 Account: mudyfnrzoc	Name: mudyfnrzoc	Desc:
+index: 0xdf RID: 0x629 acb: 0x00000210 Account: okfdtykrvl	Name: okfdtykrvl	Desc:
+index: 0xe0 RID: 0x622 acb: 0x00000210 Account: pfyndubcrs	Name: pfyndubcrs	Desc:
+index: 0xe1 RID: 0x610 acb: 0x00000210 Account: qcljgnpsjl	Name: qcljgnpsjl	Desc:
+index: 0xe2 RID: 0x61f acb: 0x00000210 Account: rqmcjgirxi	Name: rqmcjgirxi	Desc:
+index: 0xe3 RID: 0x62f acb: 0x00000210 Account: ujsxrcemsu	Name: ujsxrcemsu	Desc:
+index: 0xe4 RID: 0x611 acb: 0x00000210 Account: uwdgunvfln	Name: uwdgunvfln	Desc:
+index: 0xe5 RID: 0x62c acb: 0x00000210 Account: vywmkbegdr	Name: vywmkbegdr	Desc:
+index: 0xe6 RID: 0x612 acb: 0x00000210 Account: wjwnojisdx	Name: wjwnojisdx	Desc:
+index: 0xe7 RID: 0x628 acb: 0x00000210 Account: wtqagbxprp	Name: wtqagbxprp	Desc:
+index: 0xe8 RID: 0x621 acb: 0x00000210 Account: wwassaudba	Name: wwassaudba	Desc:
+index: 0xe9 RID: 0x613 acb: 0x00000210 Account: xdtqjfinpd	Name: xdtqjfinpd	Desc:
+index: 0xea RID: 0x627 acb: 0x00000210 Account: xlzoubctqy	Name: xlzoubctqy	Desc:
+index: 0xeb RID: 0x625 acb: 0x00000210 Account: yjprabytdt	Name: yjprabytdt	Desc:
+index: 0xec RID: 0x61e acb: 0x00000210 Account: ymvqxzvizr	Name: ymvqxzvizr	Desc:
+index: 0xed RID: 0x61a acb: 0x00000211 Account: yykxdbdzge	Name: yykxdbdzge	Desc:
+index: 0xee RID: 0x61c acb: 0x00000210 Account: zflykmuelb	Name: zflykmuelb	Desc:
+index: 0xef RID: 0x631 acb: 0x00000210 Account: zredsfcfhr	Name: zredsfcfhr	Desc:
+index: 0xf0 RID: 0x1f6 acb: 0x00000011 Account: krbtgt	Name: 	Desc: Key Distribution Center Service Account
+index: 0xf1 RID: 0x1f5 acb: 0x00000215 Account: Guest	Name: 	Desc: Built-in account for guest access to the computer/domain
+index: 0xf2 RID: 0x3e8 acb: 0x00000210 Account: admin	Name: admin	Desc:
+index: 0xf3 RID: 0x60f acb: 0x00000210 Account: test	Name: test	Desc:
+
+user:[Administrator] rid:[0x1f4]
+user:[Guest] rid:[0x1f5]
+user:[krbtgt] rid:[0x1f6]
+user:[admin] rid:[0x3e8]
+user:[elfu_admin] rid:[0x450]
+user:[elfu_svc] rid:[0x451]
+user:[remote_elf] rid:[0x452]
+user:[ulyssesross] rid:[0x455]
+user:[bobolson] rid:[0x457]
+user:[raulpenrod] rid:[0x459]
+user:[charleneneptune] rid:[0x45b]
+user:[xavierzebra] rid:[0x45d]
+user:[victoriacharles] rid:[0x45f]
+user:[paulyankee] rid:[0x461]
+user:[ulyssestrebek] rid:[0x463]
+user:[lukeyankee] rid:[0x465]
+user:[paulhankerson] rid:[0x467]
+user:[quincyjones] rid:[0x469]
+user:[maryhankerson] rid:[0x46b]
+user:[ulyssespenrod] rid:[0x46d]
+user:[charlenesmith] rid:[0x46f]
+user:[ulysseslovering] rid:[0x471]
+user:[hankqueior] rid:[0x473]
+user:[ednamoss] rid:[0x475]
+user:[hankgeorge] rid:[0x477]
+user:[yolandayankee] rid:[0x479]
+user:[wandaneptune] rid:[0x47b]
+user:[forrestvictoria] rid:[0x47d]
+user:[jorgetrebek] rid:[0x47f]
+user:[zeldaellis] rid:[0x481]
+user:[samanthazebra] rid:[0x483]
+user:[noahgeorge] rid:[0x485]
+user:[quincycharles] rid:[0x487]
+user:[paulvictoria] rid:[0x489]
+user:[xavierirving] rid:[0x48b]
+user:[wandayankee] rid:[0x48d]
+user:[yolandaabbott] rid:[0x48f]
+user:[victoriageorge] rid:[0x491]
+user:[forrestcharles] rid:[0x493]
+user:[opheliaolson] rid:[0x495]
+user:[xavierdruidia] rid:[0x497]
+user:[gildapenrod] rid:[0x499]
+user:[opheliakilleen] rid:[0x49b]
+user:[bobross] rid:[0x49d]
+user:[ingridbinford] rid:[0x49f]
+user:[yolandabinford] rid:[0x4a1]
+user:[trevorbinford] rid:[0x4a3]
+user:[samanthatrebek] rid:[0x4a5]
+user:[dwanekilleen] rid:[0x4a7]
+user:[alicefox] rid:[0x4a9]
+user:[marydruidia] rid:[0x4ab]
+user:[kimkilleen] rid:[0x4ad]
+user:[lukegeorge] rid:[0x4af]
+user:[xavierolson] rid:[0x4b1]
+user:[maryvictoria] rid:[0x4b3]
+user:[opheliazebra] rid:[0x4b5]
+user:[quincytrebek] rid:[0x4b7]
+user:[bobdruidia] rid:[0x4b9]
+user:[opheliasmith] rid:[0x4bb]
+user:[zeldacharles] rid:[0x4bd]
+user:[gildairving] rid:[0x4bf]
+user:[quincyyankee] rid:[0x4c1]
+user:[noahfox] rid:[0x4c3]
+user:[bobsmith] rid:[0x4c5]
+user:[forrestyankee] rid:[0x4c7]
+user:[gildajones] rid:[0x4c9]
+user:[hankhankerson] rid:[0x4cb]
+user:[hankjones] rid:[0x4cd]
+user:[zeldaross] rid:[0x4cf]
+user:[hankbinford] rid:[0x4d1]
+user:[lukefox] rid:[0x4d3]
+user:[trevorellis] rid:[0x4d5]
+user:[xavierabbott] rid:[0x4d7]
+user:[jorgesmith] rid:[0x4d9]
+user:[opheliajones] rid:[0x4db]
+user:[hankvictoria] rid:[0x4dd]
+user:[ulyssesirving] rid:[0x4df]
+user:[hankabbott] rid:[0x4e1]
+user:[bobulrich] rid:[0x4e3]
+user:[kimxavier] rid:[0x4e5]
+user:[quincydruidia] rid:[0x4e7]
+user:[alicehankerson] rid:[0x4e9]
+user:[opheliaellis] rid:[0x4eb]
+user:[quincylovering] rid:[0x4ed]
+user:[paulxavier] rid:[0x4ef]
+user:[victoriawashington] rid:[0x4f1]
+user:[bobbinford] rid:[0x4f3]
+user:[zeldairving] rid:[0x4f5]
+user:[jorgepenrod] rid:[0x4f7]
+user:[samanthairving] rid:[0x4f9]
+user:[ulyssesgeorge] rid:[0x4fb]
+user:[ednabinford] rid:[0x4fd]
+user:[jorgehankerson] rid:[0x4ff]
+user:[marywashington] rid:[0x501]
+user:[raulsmith] rid:[0x503]
+user:[quincygeorge] rid:[0x505]
+user:[victoriavictoria] rid:[0x507]
+user:[ingridzebra] rid:[0x509]
+user:[quincyellis] rid:[0x50b]
+user:[opheliayankee] rid:[0x50d]
+user:[noahyankee] rid:[0x50f]
+user:[bobirving] rid:[0x511]
+user:[victoriaqueior] rid:[0x513]
+user:[charleneellis] rid:[0x515]
+user:[samanthaneptune] rid:[0x517]
+user:[ednajones] rid:[0x519]
+user:[jorgebinford] rid:[0x51b]
+user:[wandafox] rid:[0x51d]
+user:[alicejones] rid:[0x51f]
+user:[luketrebek] rid:[0x521]
+user:[samanthaolson] rid:[0x523]
+user:[forrestneptune] rid:[0x525]
+user:[ingridxavier] rid:[0x527]
+user:[maryyankee] rid:[0x529]
+user:[lukeirving] rid:[0x52b]
+user:[bobmoss] rid:[0x52d]
+user:[marykilleen] rid:[0x52f]
+user:[kimneptune] rid:[0x531]
+user:[yolandaneptune] rid:[0x533]
+user:[yolandapenrod] rid:[0x535]
+user:[marytrebek] rid:[0x537]
+user:[alicewashington] rid:[0x539]
+user:[marysmith] rid:[0x53b]
+user:[trevorkilleen] rid:[0x53d]
+user:[ingridneptune] rid:[0x53f]
+user:[charlenexavier] rid:[0x541]
+user:[samanthahankerson] rid:[0x543]
+user:[paulross] rid:[0x545]
+user:[victoriadruidia] rid:[0x547]
+user:[ednaulrich] rid:[0x549]
+user:[opheliamoss] rid:[0x54b]
+user:[noahulrich] rid:[0x54d]
+user:[raulgeorge] rid:[0x54f]
+user:[maryqueior] rid:[0x551]
+user:[quincyfox] rid:[0x553]
+user:[dwaneyankee] rid:[0x555]
+user:[zeldaabbott] rid:[0x557]
+user:[alicedruidia] rid:[0x559]
+user:[bobxavier] rid:[0x55b]
+user:[zeldalovering] rid:[0x55d]
+user:[hankzebra] rid:[0x55f]
+user:[rauldruidia] rid:[0x561]
+user:[quincywashington] rid:[0x563]
+user:[ednalovering] rid:[0x565]
+user:[wandabinford] rid:[0x567]
+user:[zeldabinford] rid:[0x569]
+user:[paulirving] rid:[0x56b]
+user:[samanthadruidia] rid:[0x56d]
+user:[rauljones] rid:[0x56f]
+user:[dwanewashington] rid:[0x571]
+user:[gildalovering] rid:[0x573]
+user:[dwaneneptune] rid:[0x575]
+user:[wandaqueior] rid:[0x577]
+user:[ingridqueior] rid:[0x579]
+user:[wandaellis] rid:[0x57b]
+user:[hankirving] rid:[0x57d]
+user:[kimabbott] rid:[0x57f]
+user:[wandageorge] rid:[0x581]
+user:[victoriazebra] rid:[0x583]
+user:[wandawashington] rid:[0x585]
+user:[ulyssesfox] rid:[0x587]
+user:[charlenecharles] rid:[0x589]
+user:[victoriaolson] rid:[0x58b]
+user:[jorgejones] rid:[0x58d]
+user:[bobtrebek] rid:[0x58f]
+user:[noahdruidia] rid:[0x591]
+user:[lukeulrich] rid:[0x593]
+user:[paulsmith] rid:[0x595]
+user:[dwaneross] rid:[0x597]
+user:[paulwashington] rid:[0x599]
+user:[ednadruidia] rid:[0x59b]
+user:[trevorpenrod] rid:[0x59d]
+user:[quincyabbott] rid:[0x59f]
+user:[paulolson] rid:[0x5a1]
+user:[alicebinford] rid:[0x5a3]
+user:[kimhankerson] rid:[0x5a5]
+user:[dwanehankerson] rid:[0x5a7]
+user:[charlenejones] rid:[0x5a9]
+user:[yolandakilleen] rid:[0x5ab]
+user:[victorianeptune] rid:[0x5ad]
+user:[noahvictoria] rid:[0x5af]
+user:[opheliahankerson] rid:[0x5b1]
+user:[gildakilleen] rid:[0x5b3]
+user:[aliceolson] rid:[0x5b5]
+user:[trevorolson] rid:[0x5b7]
+user:[gildacharles] rid:[0x5b9]
+user:[jorgefox] rid:[0x5bb]
+user:[kimwashington] rid:[0x5bd]
+user:[lukekilleen] rid:[0x5bf]
+user:[victoriaabbott] rid:[0x5c1]
+user:[ingridgeorge] rid:[0x5c3]
+user:[raulyankee] rid:[0x5c5]
+user:[dwanemoss] rid:[0x5c7]
+user:[zeldakilleen] rid:[0x5c9]
+user:[ingridvictoria] rid:[0x5cb]
+user:[gildaabbott] rid:[0x5cd]
+user:[ulyssesbinford] rid:[0x5cf]
+user:[noaholson] rid:[0x5d1]
+user:[quincyxavier] rid:[0x5d3]
+user:[jorgeolson] rid:[0x5d5]
+user:[ulyssesxavier] rid:[0x5d7]
+user:[alicequeior] rid:[0x5d9]
+user:[ednaabbott] rid:[0x5db]
+user:[lukedruidia] rid:[0x5dd]
+user:[opheliatrebek] rid:[0x5df]
+user:[ingridfox] rid:[0x5e1]
+user:[ulyssesolson] rid:[0x5e3]
+user:[raultrebek] rid:[0x5e5]
+user:[test] rid:[0x60f]
+user:[qcljgnpsjl] rid:[0x610]
+user:[uwdgunvfln] rid:[0x611]
+user:[wjwnojisdx] rid:[0x612]
+user:[xdtqjfinpd] rid:[0x613]
+user:[aaigvfsuza] rid:[0x614]
+user:[cojbecjcwu] rid:[0x615]
+user:[jjwxlrkpts] rid:[0x616]
+user:[ijshkhssxd] rid:[0x617]
+user:[dbevvcejny] rid:[0x618]
+user:[hvttrqnacp] rid:[0x619]
+user:[yykxdbdzge] rid:[0x61a]
+user:[hxihtavrtu] rid:[0x61b]
+user:[zflykmuelb] rid:[0x61c]
+user:[cujbilxiyl] rid:[0x61d]
+user:[ymvqxzvizr] rid:[0x61e]
+user:[rqmcjgirxi] rid:[0x61f]
+user:[kvecitaxyy] rid:[0x620]
+user:[wwassaudba] rid:[0x621]
+user:[pfyndubcrs] rid:[0x622]
+user:[mudyfnrzoc] rid:[0x623]
+user:[lrmldfheus] rid:[0x624]
+user:[yjprabytdt] rid:[0x625]
+user:[khqmuharkz] rid:[0x626]
+user:[xlzoubctqy] rid:[0x627]
+user:[wtqagbxprp] rid:[0x628]
+user:[okfdtykrvl] rid:[0x629]
+user:[bvofqrjnps] rid:[0x62a]
+user:[kjemegwcxf] rid:[0x62b]
+user:[vywmkbegdr] rid:[0x62c]
+user:[mhfatpfjdr] rid:[0x62d]
+user:[kfhpzwybgj] rid:[0x62e]
+user:[ujsxrcemsu] rid:[0x62f]
+user:[maunjjeokf] rid:[0x630]
+user:[zredsfcfhr] rid:[0x631]
+
+ ==================================( Share Enumeration on 172.17.0.3 )==================================
+
+
+	Sharename       Type      Comment
+	---------       ----      -------
+	netlogon        Disk
+	sysvol          Disk
+	elfu_svc_shr    Disk      elfu_svc_shr
+	research_dep    Disk      research_dep
+	IPC$            IPC       IPC Service (Samba 4.3.11-Ubuntu)
+SMB1 disabled -- no workgroup available
+
+[+] Attempting to map shares on 172.17.0.3
+
+//172.17.0.3/netlogon	Mapping: DENIED Listing: N/A Writing: N/A
+//172.17.0.3/sysvol	Mapping: DENIED Listing: N/A Writing: N/A
+//172.17.0.3/elfu_svc_shr	Mapping: DENIED Listing: N/A Writing: N/A
+//172.17.0.3/research_dep	Mapping: DENIED Listing: N/A Writing: N/A
+
+[E] Can't understand response:
+
+NT_STATUS_OBJECT_NAME_NOT_FOUND listing \*
+//172.17.0.3/IPC$	Mapping: N/A Listing: N/A Writing: N/A
+
+ =============================( Password Policy Information for 172.17.0.3 )=============================
+
+
+[E] Dependent program "polenum" not present.  Skipping this check.  Download polenum from http://labs.portcullis.co.uk/application/polenum/
+
+
+
+ ========================================( Groups on 172.17.0.3 )========================================
+
+
+[+] Getting builtin groups:
+
+group:[Administrators] rid:[0x220]
+group:[Users] rid:[0x221]
+group:[Guests] rid:[0x222]
+group:[Account Operators] rid:[0x224]
+group:[Server Operators] rid:[0x225]
+group:[Print Operators] rid:[0x226]
+group:[Backup Operators] rid:[0x227]
+group:[Replicator] rid:[0x228]
+group:[Pre-Windows 2000 Compatible Access] rid:[0x22a]
+group:[Remote Desktop Users] rid:[0x22b]
+group:[Network Configuration Operators] rid:[0x22c]
+group:[Incoming Forest Trust Builders] rid:[0x22d]
+group:[Performance Monitor Users] rid:[0x22e]
+group:[Performance Log Users] rid:[0x22f]
+group:[Windows Authorization Access Group] rid:[0x230]
+group:[Terminal Server License Servers] rid:[0x231]
+group:[Distributed COM Users] rid:[0x232]
+group:[IIS_IUSRS] rid:[0x238]
+group:[Cryptographic Operators] rid:[0x239]
+group:[Event Log Readers] rid:[0x23d]
+group:[Certificate Service DCOM Access] rid:[0x23e]
+group:[RDS Remote Access Servers] rid:[0x23f]
+group:[RDS Endpoint Servers] rid:[0x240]
+group:[RDS Management Servers] rid:[0x241]
+group:[Hyper-V Administrators] rid:[0x242]
+group:[Access Control Assistance Operators] rid:[0x243]
+group:[Remote Management Users] rid:[0x244]
+group:[Storage Replica Administrators] rid:[0x246]
+
+[+]  Getting builtin group memberships:
+
+
+[+]  Getting local groups:
+
+group:[Cert Publishers] rid:[0x205]
+group:[RAS and IAS Servers] rid:[0x229]
+group:[Allowed RODC Password Replication Group] rid:[0x23b]
+group:[Denied RODC Password Replication Group] rid:[0x23c]
+group:[DnsAdmins] rid:[0x44e]
+
+[+]  Getting local group memberships:
+
+Group: Denied RODC Password Replication Group' (RID: 572) has member: ELFU\Domain Controllers
+Group: Denied RODC Password Replication Group' (RID: 572) has member: ELFU\Group Policy Creator Owners
+Group: Denied RODC Password Replication Group' (RID: 572) has member: ELFU\Domain Admins
+Group: Denied RODC Password Replication Group' (RID: 572) has member: ELFU\Schema Admins
+Group: Denied RODC Password Replication Group' (RID: 572) has member: ELFU\krbtgt
+Group: Denied RODC Password Replication Group' (RID: 572) has member: ELFU\Enterprise Admins
+Group: Denied RODC Password Replication Group' (RID: 572) has member: ELFU\Read-only Domain Controllers
+Group: Denied RODC Password Replication Group' (RID: 572) has member: ELFU\Cert Publishers
+
+[+]  Getting domain groups:
+
+group:[Enterprise Read-only Domain Controllers] rid:[0x1f2]
+group:[Domain Admins] rid:[0x200]
+group:[Domain Users] rid:[0x201]
+group:[Domain Guests] rid:[0x202]
+group:[Domain Computers] rid:[0x203]
+group:[Domain Controllers] rid:[0x204]
+group:[Schema Admins] rid:[0x206]
+group:[Enterprise Admins] rid:[0x207]
+group:[Group Policy Creator Owners] rid:[0x208]
+group:[Read-only Domain Controllers] rid:[0x209]
+group:[Cloneable Domain Controllers] rid:[0x20a]
+group:[Protected Users] rid:[0x20d]
+group:[Key Admins] rid:[0x20e]
+group:[Enterprise Key Admins] rid:[0x20f]
+group:[DnsUpdateProxy] rid:[0x44f]
+group:[RemoteManagementDomainUsers] rid:[0x453]
+group:[ResearchDepartment] rid:[0x454]
+group:[File Shares] rid:[0x5e7]
+
+[+]  Getting domain group memberships:
+
+Group: 'File Shares' (RID: 1511) has member: ELFU\SHARE46$
+Group: 'File Shares' (RID: 1511) has member: ELFU\SHARE34$
+Group: 'File Shares' (RID: 1511) has member: ELFU\SHARE49$
+Group: 'File Shares' (RID: 1511) has member: ELFU\SHARE50$
+Group: 'File Shares' (RID: 1511) has member: ELFU\SHARE56$
+Group: 'File Shares' (RID: 1511) has member: ELFU\SHARE38$
+Group: 'File Shares' (RID: 1511) has member: ELFU\SHARE44$
+Group: 'File Shares' (RID: 1511) has member: ELFU\SHARE48$
+Group: 'File Shares' (RID: 1511) has member: ELFU\SHARE41$
+Group: 'File Shares' (RID: 1511) has member: ELFU\SHARE47$
+Group: 'File Shares' (RID: 1511) has member: ELFU\SHARE52$
+Group: 'File Shares' (RID: 1511) has member: ELFU\SHARE55$
+Group: 'File Shares' (RID: 1511) has member: ELFU\SHARE28$
+Group: 'File Shares' (RID: 1511) has member: ELFU\SHARE58$
+Group: 'File Shares' (RID: 1511) has member: ELFU\SHARE54$
+Group: 'File Shares' (RID: 1511) has member: ELFU\SHARE39$
+Group: 'File Shares' (RID: 1511) has member: ELFU\SHARE26$
+Group: 'File Shares' (RID: 1511) has member: ELFU\SHARE37$
+Group: 'File Shares' (RID: 1511) has member: ELFU\SHARE43$
+Group: 'File Shares' (RID: 1511) has member: ELFU\SHARE31$
+Group: 'File Shares' (RID: 1511) has member: ELFU\SHARE32$
+Group: 'File Shares' (RID: 1511) has member: ELFU\SHARE60$
+Group: 'File Shares' (RID: 1511) has member: ELFU\SHARE29$
+Group: 'File Shares' (RID: 1511) has member: ELFU\SHARE33$
+Group: 'File Shares' (RID: 1511) has member: ELFU\SHARE25$
+Group: 'File Shares' (RID: 1511) has member: ELFU\SHARE27$
+Group: 'File Shares' (RID: 1511) has member: ELFU\SHARE35$
+Group: 'File Shares' (RID: 1511) has member: ELFU\SHARE53$
+Group: 'File Shares' (RID: 1511) has member: ELFU\SHARE36$
+Group: 'File Shares' (RID: 1511) has member: ELFU\SHARE40$
+Group: 'File Shares' (RID: 1511) has member: ELFU\SHARE45$
+Group: 'File Shares' (RID: 1511) has member: ELFU\SHARE42$
+Group: 'File Shares' (RID: 1511) has member: ELFU\SHARE51$
+Group: 'File Shares' (RID: 1511) has member: ELFU\SHARE59$
+Group: 'File Shares' (RID: 1511) has member: ELFU\SHARE57$
+Group: 'RemoteManagementDomainUsers' (RID: 1107) has member: ELFU\remote_elf
+Group: 'Schema Admins' (RID: 518) has member: ELFU\Administrator
+Group: 'Enterprise Admins' (RID: 519) has member: ELFU\Administrator
+Group: 'ResearchDepartment' (RID: 1108) has member: ELFU\test
+Group: 'ResearchDepartment' (RID: 1108) has member: ELFU\qcljgnpsjl
+Group: 'ResearchDepartment' (RID: 1108) has member: ELFU\xdtqjfinpd
+Group: 'ResearchDepartment' (RID: 1108) has member: ELFU\dbevvcejny
+Group: 'ResearchDepartment' (RID: 1108) has member: ELFU\wwassaudba
+Group: 'ResearchDepartment' (RID: 1108) has member: ELFU\yjprabytdt
+Group: 'ResearchDepartment' (RID: 1108) has member: ELFU\kvecitaxyy
+Group: 'Group Policy Creator Owners' (RID: 520) has member: ELFU\Administrator
+Group: 'Domain Admins' (RID: 512) has member: ELFU\Administrator
+Group: 'Domain Admins' (RID: 512) has member: ELFU\elfu_admin
+
+ ===================( Users on 172.17.0.3 via RID cycling (RIDS: 500-550,1000-1050) )===================
+
+
+[I] Found new SID:
+S-1-5-21-2037236562-2033616742-1485113978
+
+[I] Found new SID:
+S-1-5-21-2037236562-2033616742-1485113978
+
+[I] Found new SID:
+S-1-5-32
+
+[I] Found new SID:
+S-1-5-32
+
+[I] Found new SID:
+S-1-5-32
+
+[I] Found new SID:
+S-1-5-32
+
+[I] Found new SID:
+S-1-5-32
+
+[+] Enumerating users using SID S-1-5-21-2037236562-2033616742-1485113978 and logon username '', password ''
+
+S-1-5-21-2037236562-2033616742-1485113978-500 ELFU\Administrator (Local User)
+S-1-5-21-2037236562-2033616742-1485113978-501 ELFU\Guest (Local User)
+S-1-5-21-2037236562-2033616742-1485113978-502 ELFU\krbtgt (Local User)
+S-1-5-21-2037236562-2033616742-1485113978-512 ELFU\Domain Admins (Domain Group)
+S-1-5-21-2037236562-2033616742-1485113978-513 ELFU\Domain Users (Domain Group)
+S-1-5-21-2037236562-2033616742-1485113978-514 ELFU\Domain Guests (Domain Group)
+S-1-5-21-2037236562-2033616742-1485113978-515 ELFU\Domain Computers (Domain Group)
+S-1-5-21-2037236562-2033616742-1485113978-516 ELFU\Domain Controllers (Domain Group)
+S-1-5-21-2037236562-2033616742-1485113978-517 ELFU\Cert Publishers (Local Group)
+S-1-5-21-2037236562-2033616742-1485113978-518 ELFU\Schema Admins (Domain Group)
+S-1-5-21-2037236562-2033616742-1485113978-519 ELFU\Enterprise Admins (Domain Group)
+S-1-5-21-2037236562-2033616742-1485113978-520 ELFU\Group Policy Creator Owners (Domain Group)
+S-1-5-21-2037236562-2033616742-1485113978-521 ELFU\Read-only Domain Controllers (Domain Group)
+S-1-5-21-2037236562-2033616742-1485113978-522 ELFU\Cloneable Domain Controllers (Domain Group)
+S-1-5-21-2037236562-2033616742-1485113978-525 ELFU\Protected Users (Domain Group)
+S-1-5-21-2037236562-2033616742-1485113978-526 ELFU\Key Admins (Domain Group)
+S-1-5-21-2037236562-2033616742-1485113978-527 ELFU\Enterprise Key Admins (Domain Group)
+S-1-5-21-2037236562-2033616742-1485113978-1000 ELFU\admin (Local User)
+S-1-5-21-2037236562-2033616742-1485113978-1001 ELFU\DC01$ (Local User)
+
+[+] Enumerating users using SID S-1-5-32 and logon username '', password ''
+
+S-1-5-32-544 BUILTIN\Administrators (Local Group)
+S-1-5-32-545 BUILTIN\Users (Local Group)
+S-1-5-32-546 BUILTIN\Guests (Local Group)
+S-1-5-32-548 BUILTIN\Account Operators (Local Group)
+S-1-5-32-549 BUILTIN\Server Operators (Local Group)
+S-1-5-32-550 BUILTIN\Print Operators (Local Group)
+
+ ================================( Getting printer info for 172.17.0.3 )================================
+
+No printers returned.
+
+
+enum4linux complete on Fri Dec 31 14:06:20 2021
