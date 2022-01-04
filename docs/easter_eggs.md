@@ -5,7 +5,7 @@ Every year my plan is to find all the Easter eggs and every year I fail miserabl
 
 ## Four Calling Birds
 
-Probably to no one's surprise, this year's [event announcement](https://www.sans.org/mlp/holiday-hack-challenge/) continues the KringleCon title trend set by previous iterations. 2019 was named *KringleCon 2: Turtle Doves*, in 2020 it was *KringleCon 3: French Hens*, and this time around we get *Four Calling Birds* which is a reference to the fourth verse from the [Twelve Days of Christmas](https://www.metrolyrics.com/twelve-days-of-christmas-lyrics-christmas-carols.html) carol.
+Probably to no one's surprise, this year's [event announcement](https://www.sans.org/mlp/holiday-hack-challenge/) continues the KringleCon title trend set by previous iterations. 2019 was named *KringleCon 2: Turtle Doves*, in 2020 it was *KringleCon 3: French Hens*, and this time around we get *KringleCon 4: Calling Birds* which is a reference to the fourth verse from the [Twelve Days of Christmas](https://www.metrolyrics.com/twelve-days-of-christmas-lyrics-christmas-carols.html) carol.
 
 !!! abstract "The Twelve Days Of Christmas"
     ...<br/>
@@ -83,7 +83,7 @@ Last year's painting has been replaced, leaving a discolored outline on the wall
 
 ## Castle Artwork
 
-It looks like [last year's artwork](https://n00.be/HolidayHackChallenge2020/easter_eggs/#castle-artwork), which is cut from a single image, is still hanging on the walls in Santa's castle. If you download all the textures from `https://2021.kringlecon.com/textures/art/f{1-39}.png`, you can recreate a [painting](https://riseoftheguardians.fandom.com/wiki/Jack_Frost_(The_Guardians_of_Childhood)?file=JackFrost-PicBookWJ.jpg) of Jack Frost.
+It looks like [last year's artwork](https://n00.be/HolidayHackChallenge2020/easter_eggs/#castle-artwork), which is cut from a single image, is still hanging on the walls in Santa's castle. If you [download](./tools/misc/get_artwork.sh) all the textures from `https://2021.kringlecon.com/textures/art/f{1-39}.png`, you can recreate [this painting](https://riseoftheguardians.fandom.com/wiki/Jack_Frost_(The_Guardians_of_Childhood)?file=JackFrost-PicBookWJ.jpg) of Jack Frost.
 
 ![Artwork puzzle](./img/misc/artwork_puzzle.png)
 
@@ -97,7 +97,7 @@ The phrase *Ille te videt dum dormit* on the ElfU logo is Latin and translates t
 
 ## Web socket messages
 
-The WebSocket at `wss://2021.kringlecon.com/ws` is a lot of fun to play around with and others have gone above and beyond to write some [amazing helper scripts](https://github.com/pollev/santas_little_helper) that let you navigate the game without using the web UI. The `WS_OHHIMARK` and `DENNIS_NEDRY` WebSocket response codes are references to the movies [The Room](https://www.youtube.com/watch?v=aekfPU0SwNw) and [Jurassic Park](https://www.youtube.com/watch?v=aekfPU0SwNw), respectively.
+The WebSocket at `wss://2021.kringlecon.com/ws` is a lot of fun to play around with and others have gone above and beyond to write some [amazing helper scripts](https://github.com/pollev/santas_little_helper) that let you navigate the game without using the web UI. The `WS_OHHIMARK` and `DENNIS_NEDRY` response message types are references to the movies [The Room](https://www.youtube.com/watch?v=aekfPU0SwNw) and [Jurassic Park](https://www.youtube.com/watch?v=aekfPU0SwNw), respectively.
 
 === ":material-message-text: WS_OHHIMARK"
     ![WS_OHHIMARK](./img/misc/oh_hi_mark.png){ class=border }
