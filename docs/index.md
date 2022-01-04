@@ -32,7 +32,7 @@ As always, there's a few things worth highlighting like [getting root](./hints/h
     [I'm going to have some bouncer trolls bounce you right out of this casino!](./objectives/o4.md)
 
 !!! done "5. Strange USB Device - :fontawesome-solid-star::fontawesome-solid-star::fontawesome-regular-star::fontawesome-regular-star::fontawesome-regular-star:"
-    [ickymcgoop](./objectives/o5.md)
+    [*ickymcgoop*](./objectives/o5.md)
 
 !!! done "6. Shellcode Primer - :fontawesome-solid-star::fontawesome-solid-star::fontawesome-solid-star::fontawesome-regular-star::fontawesome-regular-star:"
     [cyber security knowledge](./objectives/o6.md)
