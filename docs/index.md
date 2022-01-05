@@ -26,7 +26,7 @@ As always, there's a few things worth highlighting like [getting root](./hints/h
     Play [the game](./objectives/o2.md) or decode the [`Cookiepella`](./objectives/o2.md#cookiepella) cookie.
 
 !!! done "3. Thaw Frost Tower's Entrance - :fontawesome-solid-star::fontawesome-solid-star::fontawesome-regular-star::fontawesome-regular-star::fontawesome-regular-star:"
-    Connect to the *FROST-Nidus-Setup* SSID and [turn up the heat](./objectives/o3.md).
+    Connect to the *FROST-Nidus-Setup* SSID and use the `/api/cooler` endpoint to [turn up the heat](./objectives/o3.md).
 
 !!! done "4. Slot Machine Investigation - :fontawesome-solid-star::fontawesome-solid-star::fontawesome-regular-star::fontawesome-regular-star::fontawesome-regular-star:"
     [I'm going to have some bouncer trolls bounce you right out of this casino!](./objectives/o4.md)
