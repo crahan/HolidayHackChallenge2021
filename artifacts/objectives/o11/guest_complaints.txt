@@ -1,0 +1,6 @@
+HTML Form URL Encoded: application/x-www-form-urlencoded
+    Form item: "name" = "Muffy VonDuchess Sebastian"
+    Form item: "troll_id" = "I don't know. There were several of them."
+    Form item: "guest_info" = "Room 1024"
+    Form item: "description" = "I have never, in my life, been in a facility with such a horrible staff. They are rude and insulting. What kind of place is this? You can be sure that I (or my lawyer) will be speaking directly with Mr. Frost!"
+    Form item: "submit" = "Submit"

@@ -1,0 +1,106 @@
+HTML Form URL Encoded: application/x-www-form-urlencoded
+    Form item: "name" = "Klug"
+    Form item: "troll_id" = "2234"
+    Form item: "guest_info" = "Funny looking man in room 1145"
+    Form item: "description" = "I carry suitcase to room. Throw bag at bed and miss a little. Man is angry. He say suitcase is scuff. I say his face is scuff. He is more angry and I get no tip."
+    Form item: "submit" = "Submit"
+
+HTML Form URL Encoded: application/x-www-form-urlencoded
+    Form item: "name" = "Gavk"
+    Form item: "troll_id" = "2354"
+    Form item: "guest_info" = "Annoying woman in room 1239"
+    Form item: "description" = "Woman call desk and complain that room is cold. I go to room, knock on door, and tell her nice that I eat beans at lunch and can warm room up. She slam door in Gavk face. So mean."
+    Form item: "submit" = "Submit"
+
+HTML Form URL Encoded: application/x-www-form-urlencoded
+    Form item: "name" = "Bluk"
+    Form item: "troll_id" = "2367"
+    Form item: "guest_info" = "Boring humans in room 1128"
+    Form item: "description" = "I bring room service order. Use key card to go in. Woman getting undress. She scream and throw shoe at me. Shoe is tasty, but it not make up for her hurt my ears with scream."
+    Form item: "submit" = "Submit"
+
+HTML Form URL Encoded: application/x-www-form-urlencoded
+    Form item: "name" = "Euuk"
+    Form item: "troll_id" = "1973"
+    Form item: "guest_info" = "Ugly, mean couple in room 1032"
+    Form item: "description" = "Euuk do an innocent "crop dust" in elevator as it reach ground floor. No biggie - everyone do this sometimes. Couple get in. Begin to retch. Look at me with mean-type nastiness. I have bad feels."
+    Form item: "submit" = "Submit"
+
+HTML Form URL Encoded: application/x-www-form-urlencoded
+    Form item: "name" = "Crag"
+    Form item: "troll_id" = "2351"
+    Form item: "guest_info" = "Bald man in room 1212"
+    Form item: "description" = "Crag get in elevator. Man get in too. Crag push ALL buttons. Crag giggle because is funny joke. Man is no thinking funny. He has bad humor. He call Crag "unthinking brute." Crag is not brute."
+    Form item: "submit" = "Submit"
+
+HTML Form URL Encoded: application/x-www-form-urlencoded
+    Form item: "name" = "Urgh"
+    Form item: "troll_id" = "2633"
+    Form item: "guest_info" = "Stupid man in room 1215"
+    Form item: "description" = "Bring drink to man at slot machine. Spill it on him a little. Urgh go to lick it off of him and he is angry. Say his is "shock" at Urgh behavior and lick is a bad idea. He is silly and mean."
+    Form item: "submit" = "Submit"
+
+HTML Form URL Encoded: application/x-www-form-urlencoded
+    Form item: "name" = "Yaqh"
+    Form item: "troll_id" = "2796"
+    Form item: "guest_info" = "Snooty lady in room 1024"
+    Form item: "description" = "Lady call desk and ask for more towel. Yaqh take to room. Yaqh ask if she want more towel because she is like to steal. She say Yaqh is insult. Yaqh is not insult. Yaqh is Yaqh."
+    Form item: "submit" = "Submit"
+
+HTML Form URL Encoded: application/x-www-form-urlencoded
+    Form item: "name" = "Flud"
+    Form item: "troll_id" = "2083"
+    Form item: "guest_info" = "Very cranky lady in room 1024"
+    Form item: "description" = "Lady call front desk. Complain "employee" is rude. Say she is insult and want to speak to manager. Send Flud to room. Lady say troll call her towels thief. I say stop steal towels if is bother her."
+    Form item: "submit" = "Submit"
+
+HTML Form URL Encoded: application/x-www-form-urlencoded
+    Form item: "name" = "Hagg"
+    Form item: "troll_id" = "2013"
+    Form item: "guest_info" = "Incredibly angry lady in room 1024"
+    Form item: "description" = "Lady call front desk. I am walk by so I pick up phone. She is ANGRY and shout at me. Say she has never been so insult. I say she probably has but just didn't hear it."
+    Form item: "submit" = "Submit"
+
+HTML Form URL Encoded: application/x-www-form-urlencoded
+    Form item: "name" = "Quib"
+    Form item: "troll_id" = "2539"
+    Form item: "guest_info" = "Ugly little man in room 1121"
+    Form item: "description" = "He call desk and say his shoes need shine. He leave outside door. I go and get. I spit shine. One spot on shoes is bad so I lick a little. Quite tasty. I accidental eat shoe. I take other shoe back. I am proud I no eat. He is mean at me."
+    Form item: "submit" = "Submit"
+
+HTML Form URL Encoded: application/x-www-form-urlencoded
+    Form item: "name" = "Bloz"
+    Form item: "troll_id" = "2323"
+    Form item: "guest_info" = "Nasty bad woman in room 1125"
+    Form item: "description" = "Bloz have tacos for lunch. Later, Bloz have very bad tummy and need to use potty immediate. Use key card on room on 11 floor. Bloz in bathroom doing business. Lady come in and scream. Bloz business quick done. She is rude."
+    Form item: "submit" = "Submit"
+
+HTML Form URL Encoded: application/x-www-form-urlencoded
+    Form item: "name" = "Wuuk"
+    Form item: "troll_id" = "2987"
+    Form item: "guest_info" = "Very crabby woman in room 1125"
+    Form item: "description" = "Lady call desk and say toilet plug. Wuuk take plunger and go to room. Wuuk make innocent comment that lady poop like troll and say Wuuk is "outrageous."
+    Does that mean handsome?"
+    Form item: "submit" = "Submit"
+
+HTML Form URL Encoded: application/x-www-form-urlencoded
+    Form item: "name" = "Kraq"
+    Form item: "troll_id" = "2383"
+    Form item: "guest_info" = "Rude couple in room 1117"
+    Form item: "description" = "Kraq make teensy comment about man having bad toupee. Turn out it is not toupee. Kraq stand by comment - man have hair look like bad toupee. Man is angry and call Kraq many bad word. Kraq is just a pawn in great game of life."
+    Form item: "submit" = "Submit"
+
+HTML Form URL Encoded: application/x-www-form-urlencoded
+    Form item: "name" = "Ikky"
+    Form item: "troll_id" = "2743"
+    Form item: "guest_info" = "Family in room 1226"
+    Form item: "description" = "Lady is sit in lobby holding wonderfully ugly doll. Ikky like ugly doll and ask where she get. Ikky use to decorate for Halloween. She get angry because is her baby. She say "I never!" Ikky say she must have at least once."
+    Form item: "submit" = "Submit"
+
+HTML Form URL Encoded: application/x-www-form-urlencoded
+    Form item: "name" = "Stuv"
+    Form item: "troll_id" = "2833"
+    Form item: "guest_info" = "Grumpy man in room 1119"
+    Form item: "description" = "Man call front desk to complain about room be stuffy. Stuv say he is happy to get man and throw outside. Lot's of fresh air. And polar bears."
+    Form item: "submit" = "Submit"
+
