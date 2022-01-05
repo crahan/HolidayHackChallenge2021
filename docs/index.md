@@ -65,7 +65,7 @@ As always, there's a few things worth highlighting like [getting root](./hints/h
 | Tangle Coalbox        | KC    | 1     | Courtyard                   | -                                       | [Where is Caramel Santaigo?](objectives/o2.md)      |
 | Piney Sappington      | KC    | 1     | Courtyard                   | [Exif Metadata](./hints/h2.md)          | [Where is Caramel Santaigo?](objectives/o2.md)      |
 | Grimy McTrollkins     | NP    | -     | The North Pole              | -                                       | [Thaw Frost Tower's Entrance](./objectives/o3.md)   |
-| Greasy Gopherkins     | NP    | -     | The North Pole              | [Grepping for Gold](./hints/h3.md)      | [Thaw Frost Tower's Entrance](./objectives/o3.md)   |
+| Greasy GopherGuts     | NP    | -     | The North Pole              | [Grepping for Gold](./hints/h3.md)      | [Thaw Frost Tower's Entrance](./objectives/o3.md)   |
 | Hubris Selfington     | FF    | 1     | Frost Tower Lobby           | -                                       | [Slot Machine Investigation](./objectives/o4.md)    |
 | Noel Boetie           | NP    | -     | The North Pole              | [Logic Munchers](./hints/h4.md)         | [Slot Machine Investigation](./objectives/o4.md)    |
 | Morcel Nougat         | KC    | 2     | Speaker UNpreparedness Room | -                                       | [Strange USB Device](./objectives/o5.md)            |
