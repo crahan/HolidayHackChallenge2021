@@ -5,7 +5,7 @@ Every year my plan is to find all the Easter eggs and every year I fail miserabl
 
 ## Four Calling Birds
 
-Probably to no one's surprise, this year's [event announcement](https://www.sans.org/mlp/holiday-hack-challenge/) continues the KringleCon title trend set by previous iterations. 2019 was named *KringleCon 2: Turtle Doves*, in 2020 it was *KringleCon 3: French Hens*, and this time around we get *KringleCon 4: Calling Birds* which is a reference to the fourth verse from the [Twelve Days of Christmas](https://www.metrolyrics.com/twelve-days-of-christmas-lyrics-christmas-carols.html) carol.
+Probably to no one's surprise, this year's [event announcement](https://www.sans.org/mlp/holiday-hack-challenge/) continues the KringleCon title trend set by previous iterations. 2019 was named *KringleCon 2: Turtle Doves*, in 2020 it was *KringleCon 3: French Hens*, and this time around we get *KringleCon 4: Calling Birds* which is a reference to the fourth verse from the [Twelve Days of Christmas](https://genius.com/Christmas-songs-the-twelve-days-of-christmas-lyrics) carol.
 
 !!! abstract "The Twelve Days Of Christmas"
     ...<br/>
