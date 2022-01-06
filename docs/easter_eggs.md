@@ -104,7 +104,7 @@ The phrase *Ille te videt dum dormit* on the ElfU logo is Latin and translates t
 
 ## Web socket messages
 
-The WebSocket at `wss://2021.kringlecon.com/ws` is a lot of fun to play around with. The `WS_OHHIMARK` and `DENNIS_NEDRY` response message types are references to the movies [The Room](https://www.youtube.com/watch?v=aekfPU0SwNw) and [Jurassic Park](https://www.youtube.com/watch?v=aekfPU0SwNw), respectively.
+The WebSocket at `wss://2021.kringlecon.com/ws` is a lot of fun to play around with. The `WS_OHHIMARK` and `DENNIS_NEDRY` response message types are references to the movies [The Room](https://www.youtube.com/watch?v=aekfPU0SwNw) and [Jurassic Park](https://www.youtube.com/watch?v=RfiQYRn7fBg), respectively.
 
 === ":material-message-text: WS_OHHIMARK"
     ![WS_OHHIMARK](./img/misc/oh_hi_mark.png){ class=border }
