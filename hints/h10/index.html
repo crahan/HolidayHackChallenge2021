@@ -696,17 +696,15 @@ If you do, I'll be happy to trade you for some hints on SSRF! I've been studying
 🎄🎄🎄
 </code></pre></div>
 </details>
-<p>This terminal takes you through what <a href="https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/instancedata-data-retrieval.html">IMDS</a> is and how you can interact with the service by going over various sample <code>curl</code> commands. Instead of rehashing the same commands here and calling it a write-up, let's look at some other fun things we can do, like skipping past all the questions or elevating our privieleges to <em>root</em> on the terminal! <img alt="🤘" class="twemoji" src="https://twemoji.maxcdn.com/v/latest/svg/1f918.svg" title=":metal:" /></p>
-<h3 id="speedrun">Speedrun<a class="headerlink" href="#speedrun" title="Permanent link">⚓︎</a></h3>
+<p>This terminal takes you through what <a href="https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/instancedata-data-retrieval.html">IMDS</a> is and how you can interact with the service by going over various sample <code>curl</code> commands. Instead of rehashing the same commands here and calling it a write-up, let's look at some other fun things we can do, like skipping past all the questions to get the achievement or elevating our privileges to <em>root</em>! <img alt="🤘" class="twemoji" src="https://twemoji.maxcdn.com/v/latest/svg/1f918.svg" title=":metal:" /></p>
 <p>During Prof. Petabyte's lesson you're asked to type <em>next</em> a few times. This command actually works for every single question and so a one-liner like <code>for i in {1..18}; do next; sleep 1; done</code> will award you the achievement with minimal effort.</p>
 <iframe width="850" height="478" src="https://www.youtube.com/embed/eUDcs1jZ6us" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-<h3 id="getting-root">Getting root<a class="headerlink" href="#getting-root" title="Permanent link">⚓︎</a></h3>
+<div class="admonition note">
+<p class="admonition-title">Getting root<span id="getting-root"></span></p>
 <p>Skipping past all the questions is fun, but getting a root shell is better! <img alt="🥳" class="twemoji" src="https://twemoji.maxcdn.com/v/latest/svg/1f973.svg" title=":partying_face:" /></p>
 <p>Start by using <span class="keys"><kbd>Ctrl</kbd></span> + <span class="keys"><kbd>c</kbd></span> to break out of the startup sequence. If you time it right you'll prevent the bottom pane from fully loading and end up logged in as the <em>init</em> user. In the user's home folder you'll find a <a href="https://github.com/tmux-python/tmuxp"><code>tmuxp</code></a> session configuration file (i.e., <code>mysession.yaml</code>), the <code>top_pane</code> and <code>bottom_pane</code> <a href="https://en.wikipedia.org/wiki/Setuid">setuid</a> binaries that are run in each <code>tmux</code> pane, and a <code>questions_answers.json</code> file.</p>
-<p>During terminal startup there's an <code>/etc/sudoers</code> file present with an entry for the <em>elfu</em> user. However, as <code>top_bar</code> parses <code>questions_answers.json</code> and loads the data for the first question, it'll execute 2 additional commands, one being <code>sudo rm /etc/sudoers</code> which removes <em>elfu</em>'s <code>sudo</code> permissions again. </p>
-<details class="info"><summary>Taking ownership of files</summary><p>Even though files like <code>questions_answers.json</code> are owned by <em>root</em> and only readable by <em>init</em>, we can leverage the <em>init</em> user's <code>rwx</code> home folder permissions to take ownership of the files. Create a copy of the files and replace the original <em>root</em>-owned files by simply renaming the copies.</p>
-</details>
+<p>During terminal startup there's an <code>/etc/sudoers</code> file present with an entry for the <em>elfu</em> user. However, as <code>top_pane</code> parses <code>questions_answers.json</code> and loads the data for the first question, it'll execute 2 additional commands, one being <code>sudo rm /etc/sudoers</code> which removes <em>elfu</em>'s <code>sudo</code> permissions again. </p>
 <p>To get a root shell, open a new <code>tmux</code> window using <span class="keys"><kbd>Ctrl</kbd></span> + <span class="keys"><kbd>b</kbd></span> <span class="keys"><kbd>c</kbd></span> (line 2), kill the old processes (lines 3-5), take ownership of the files so we can edit them (lines 6-9), change the session name in <code>mysession.yaml</code> (line 10), edit <code>questions_answers.json</code> so it doesn't delete <code>/etc/sudoers</code> (line 11), and load <code>mysession.yaml</code> to initialize everything again (line 12). We've now switched to the <em>elfu</em> account but with the <code>/etc/sudoers</code> file still in place, meaning <code>sudo bash</code> will give us our root shell.</p>
 <table class="highlighttable"><tr><th colspan="2" class="filename"><div class="highlight"><span class="filename">Terminal commands</span></div></th></tr><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"> 1</span>
 <span class="normal"> 2</span>
@@ -736,8 +734,8 @@ sudo bash  <span class="c1"># leverage elfu&#39;s sudo permissions</span>
 </code></pre></div>
 </td></tr></table>
 <p>Putting all of the above into practice looks something like this.</p>
-<iframe width="850" height="478" src="https://www.youtube.com/embed/CfUc4lBr_Ts" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
+<p><iframe width="850" height="478" src="https://www.youtube.com/embed/CfUc4lBr_Ts" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+</div>
 <h2 id="response">Response<a class="headerlink" href="#response" title="Permanent link">⚓︎</a></h2>
 <div class="admonition quote">
 <p class="admonition-title">Noxious O'Dor</p>
