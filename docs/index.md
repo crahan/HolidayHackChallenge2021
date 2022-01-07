@@ -64,7 +64,7 @@ As always, there's a few things worth highlighting like [getting root](./hints/h
 
 ## NPC locations
 
-| :material-account: Name | :material-home: Event | :material-pound: Floor | :material-map-marker: Area | :material-gamepad: Challenge | :material-format-list-bulleted-type: Type |
+| :material-account: Name | :material-home: Event | :material-pound: Floor | :material-map-marker: Area | :material-gamepad: Challenge | :material-format-list-bulleted: Type |
 | :-------------------- | :---: | :---: | :------------------- | :------------------------------------------------- | :---: |
 | Jingle Ringford       | NP    | -     | Orientation          | [KringleCon Orientation](objectives/o1.md)         | O     |
 | Tangle Coalbox        | KC    | 1     | Courtyard            | [Where is Caramel Santaigo?](objectives/o2.md)     | O     |
