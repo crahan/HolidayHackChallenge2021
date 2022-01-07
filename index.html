@@ -296,6 +296,20 @@
   
   
     <li class="md-nav__item">
+      <a href="objectives/o1/" class="md-nav__link">
+        KringleCon Orientation
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
       <a href="objectives/o2/" class="md-nav__link">
         Where is Caramel Santaigo?
       </a>
@@ -499,7 +513,7 @@
   
     <li class="md-nav__item">
       <a href="hints/h2/" class="md-nav__link">
-        Exif Metadata
+        Document Analysis
       </a>
     </li>
   
@@ -684,7 +698,7 @@
 <p><img alt="Close Encounters of the Frostian Kind" src="img/misc/close_encounters.png" /></p>
 <h2 id="introduction">Introduction<a class="headerlink" href="#introduction" title="Permanent link">⚓︎</a></h2>
 <p><img align="left" alt="OMG! Let's go!!!" src="img/misc/lets_go.gif" /> Hello there and welcome to my <a href="https://holidayhackchallenge.com/2021/">2021 SANS Holiday Hack Challenge</a> write-up. Had you asked me at the beginning of 2021 if I'd be submitting a write-up, I might've hesitated. But each year, as the KringleCon chatter starts to build, so does my excitement, and it just reels me right back in. So, once again, I packed a suitcase, booked a flight, and headed to the North Pole to meet up with Santa, the Elves, and all my KringleCon friends! <img alt="🤗" class="twemoji" src="https://twemoji.maxcdn.com/v/latest/svg/1f917.svg" title=":hugging_face:" /></p>
-<p>Similar to last year, there's 3 main sections. This page which contains the introduction, answers, the overall narrative, and final conclusion. <a href="objectives/o2/">Objectives</a> contains the write-ups for the main objectives for which an answer had to be submitted and <a href="hints/h2/">Terminal hints</a> has the write-ups for the additional side challenges which provide you with hints to help solve the main objectives.</p>
+<p>Similar to last year, there's 3 main sections. This page which contains the introduction, answers, the overall narrative, and final conclusion. <a href="objectives/o1/">Objectives</a> contains the write-ups for the main objectives for which an answer had to be submitted and <a href="hints/h2/">Terminal Hints</a> has the write-ups for the additional side challenges which provide you with hints to help solve the main objectives.</p>
 <p>As always, there's a few things worth highlighting like <a href="hints/h10/#getting-root">getting root</a> on the IMDS Exploration terminal, <a href="hints/h13/#solution">bruteforcing</a> the Frostavator, the <a href="objectives/o13/#slide_mistake">minor mistake</a> in Prof. Petabyte's FPGA presentation, a bit of cheating <a href="hints/h3/#cheating">here</a> and <a href="hints/h4/#solution">there</a>, solving terminals with <a href="hints/h9/#oneliner">one-liners</a>, the behind the scenes of the <a href="objectives/o3/#backend-wifi-logic">WiFi dongle</a>, the very incomplete list of <a href="easter_eggs/">Easter eggs</a>, and all of the <a href="https://github.com/crahan/HolidayHackChallenge2021/tree/main/docs/tools">custom scripts</a> used throughout the game.</p>
 <div class="admonition note">
 <p class="admonition-title">50-page submission limit</p>
@@ -694,6 +708,10 @@
 <p><strong>TL;DR</strong> if you keep pressing <span class="keys"><kbd>N</kbd></span> or <span class="keys"><kbd>.</kbd></span> from this point forward, you'll hit all the content in the right order! <img alt="😄" class="twemoji" src="https://twemoji.maxcdn.com/v/latest/svg/1f604.svg" title=":smile:" /></p>
 </details>
 <h2 id="answers">Answers<a class="headerlink" href="#answers" title="Permanent link">⚓︎</a></h2>
+<div class="admonition done">
+<p class="admonition-title">1. KringleCon Orientation - <span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path d="M259.3 17.8 194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"/></svg></span><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path d="M528.1 171.5 382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6zM388.6 312.3l23.7 138.4L288 385.4l-124.3 65.3 23.7-138.4-100.6-98 139-20.2 62.2-126 62.2 126 139 20.2-100.6 98z"/></svg></span><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path d="M528.1 171.5 382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6zM388.6 312.3l23.7 138.4L288 385.4l-124.3 65.3 23.7-138.4-100.6-98 139-20.2 62.2-126 62.2 126 139 20.2-100.6 98z"/></svg></span><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path d="M528.1 171.5 382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6zM388.6 312.3l23.7 138.4L288 385.4l-124.3 65.3 23.7-138.4-100.6-98 139-20.2 62.2-126 62.2 126 139 20.2-100.6 98z"/></svg></span><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path d="M528.1 171.5 382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6zM388.6 312.3l23.7 138.4L288 385.4l-124.3 65.3 23.7-138.4-100.6-98 139-20.2 62.2-126 62.2 126 139 20.2-100.6 98z"/></svg></span></p>
+<p>Follow <a href="objectives/o1/">Jingle Ringford's instructions</a> to open the gate.</p>
+</div>
 <div class="admonition done">
 <p class="admonition-title">2. Where in the World is Caramel Santaigo? - <span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path d="M259.3 17.8 194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"/></svg></span><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path d="M528.1 171.5 382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6zM388.6 312.3l23.7 138.4L288 385.4l-124.3 65.3 23.7-138.4-100.6-98 139-20.2 62.2-126 62.2 126 139 20.2-100.6 98z"/></svg></span><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path d="M528.1 171.5 382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6zM388.6 312.3l23.7 138.4L288 385.4l-124.3 65.3 23.7-138.4-100.6-98 139-20.2 62.2-126 62.2 126 139 20.2-100.6 98z"/></svg></span><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path d="M528.1 171.5 382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6zM388.6 312.3l23.7 138.4L288 385.4l-124.3 65.3 23.7-138.4-100.6-98 139-20.2 62.2-126 62.2 126 139 20.2-100.6 98z"/></svg></span><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path d="M528.1 171.5 382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6zM388.6 312.3l23.7 138.4L288 385.4l-124.3 65.3 23.7-138.4-100.6-98 139-20.2 62.2-126 62.2 126 139 20.2-100.6 98z"/></svg></span></p>
 <p>Play <a href="objectives/o2/">the game</a> or decode the <a href="objectives/o2/#cookiepella"><code>Cookiepella</code></a> cookie.</p>
@@ -756,6 +774,14 @@
 </thead>
 <tbody>
 <tr>
+<td align="left">Jingle Ringford</td>
+<td align="left">NP</td>
+<td align="left">-</td>
+<td align="left">Orientation</td>
+<td align="left">-</td>
+<td align="left"><a href="objectives/o1/">KringleCon Orientation</a></td>
+</tr>
+<tr>
 <td align="left">Tangle Coalbox</td>
 <td align="left">KC</td>
 <td align="left">1</td>
@@ -768,7 +794,7 @@
 <td align="left">KC</td>
 <td align="left">1</td>
 <td align="left">Courtyard</td>
-<td align="left"><a href="hints/h2/">Exif Metadata</a></td>
+<td align="left"><a href="hints/h2/">Document Analysis</a></td>
 <td align="left"><a href="objectives/o2/">Where is Caramel Santaigo?</a></td>
 </tr>
 <tr>
@@ -879,7 +905,7 @@
 <td align="left">Pat Tronizer</td>
 <td align="left">FF</td>
 <td align="left">2</td>
-<td align="left">Frostfest Talks Lobby</td>
+<td align="left">Talks Lobby</td>
 <td align="left">-</td>
 <td align="left"><a href="objectives/o11/">Customer Complaint Analysis</a></td>
 </tr>
@@ -1007,13 +1033,13 @@ Ho Ho Ho!</p>
       
       
         
-        <a href="objectives/o2/" class="md-footer__link md-footer__link--next" aria-label="Next: Where is Caramel Santaigo?" rel="next">
+        <a href="objectives/o1/" class="md-footer__link md-footer__link--next" aria-label="Next: KringleCon Orientation" rel="next">
           <div class="md-footer__title">
             <div class="md-ellipsis">
               <span class="md-footer__direction">
                 Next
               </span>
-              Where is Caramel Santaigo?
+              KringleCon Orientation
             </div>
           </div>
           <div class="md-footer__button md-icon">
