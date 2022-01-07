@@ -7,7 +7,7 @@
 
 ![OMG! Let's go!!!](./img/misc/lets_go.gif){ align=left } Hello there and welcome to my [2021 SANS Holiday Hack Challenge](https://holidayhackchallenge.com/2021/) write-up. Had you asked me at the beginning of 2021 if I'd be submitting a write-up, I might've hesitated. But each year, as the KringleCon chatter starts to build, so does my excitement, and it just reels me right back in. So, once again, I packed a suitcase, booked a flight, and headed to the North Pole to meet up with Santa, the Elves, and all my KringleCon friends! :hugging_face:
 
-Similar to last year, there's 3 main sections. This page which contains the introduction, answers, the overall narrative, and final conclusion. [Objectives](./objectives/o2.md) contains the write-ups for the main objectives for which an answer had to be submitted and [Terminal hints](./hints/h2.md) has the write-ups for the additional side challenges which provide you with hints to help solve the main objectives.
+Similar to last year, there's 3 main sections. This page which contains the introduction, answers, the overall narrative, and final conclusion. [Objectives](./objectives/o1.md) contains the write-ups for the main objectives for which an answer had to be submitted and [Terminal Hints](./hints/h2.md) has the write-ups for the additional side challenges which provide you with hints to help solve the main objectives.
 
 As always, there's a few things worth highlighting like [getting root](./hints/h10.md#getting-root) on the IMDS Exploration terminal, [bruteforcing](./hints/h13.md#solution) the Frostavator, the [minor mistake](./objectives/o13.md#slide_mistake) in Prof. Petabyte's FPGA presentation, a bit of cheating [here](./hints/h3.md#cheating) and [there](./hints/h4.md#solution), solving terminals with [one-liners](./hints/h9.md#oneliner), the behind the scenes of the [WiFi dongle](./objectives/o3.md#backend-wifi-logic), the very incomplete list of [Easter eggs](./easter_eggs.md), and all of the [custom scripts](https://github.com/crahan/HolidayHackChallenge2021/tree/main/docs/tools) used throughout the game.
 
@@ -21,6 +21,9 @@ As always, there's a few things worth highlighting like [getting root](./hints/h
 
 
 ## Answers
+
+!!! done "1. KringleCon Orientation - :fontawesome-solid-star::fontawesome-regular-star::fontawesome-regular-star::fontawesome-regular-star::fontawesome-regular-star:"
+    Follow [Jingle Ringford's instructions](./objectives/o1.md) to open the gate.
 
 !!! done "2. Where in the World is Caramel Santaigo? - :fontawesome-solid-star::fontawesome-regular-star::fontawesome-regular-star::fontawesome-regular-star::fontawesome-regular-star:"
     Play [the game](./objectives/o2.md) or decode the [`Cookiepella`](./objectives/o2.md#cookiepella) cookie.
@@ -62,8 +65,9 @@ As always, there's a few things worth highlighting like [getting root](./hints/h
 
 | :material-account: Name | :material-home: Event | :material-pound: Floor | :material-map-marker: Area | :material-console-line: Terminal | :material-chess-knight: Objective |
 | :-------------------- | :---- | :---- | :-------------------------- | :-------------------------------------- | :-------------------------------------------------- |
+| Jingle Ringford       | NP    | -     | Orientation                 | -                                       | [KringleCon Orientation](objectives/o1.md)          |
 | Tangle Coalbox        | KC    | 1     | Courtyard                   | -                                       | [Where is Caramel Santaigo?](objectives/o2.md)      |
-| Piney Sappington      | KC    | 1     | Courtyard                   | [Exif Metadata](./hints/h2.md)          | [Where is Caramel Santaigo?](objectives/o2.md)      |
+| Piney Sappington      | KC    | 1     | Courtyard                   | [Document Analysis](./hints/h2.md)      | [Where is Caramel Santaigo?](objectives/o2.md)      |
 | Grimy McTrollkins     | NP    | -     | The North Pole              | -                                       | [Thaw Frost Tower's Entrance](./objectives/o3.md)   |
 | Greasy GopherGuts     | NP    | -     | The North Pole              | [Grepping for Gold](./hints/h3.md)      | [Thaw Frost Tower's Entrance](./objectives/o3.md)   |
 | Hubris Selfington     | FF    | 1     | Frost Tower Lobby           | -                                       | [Slot Machine Investigation](./objectives/o4.md)    |
@@ -77,7 +81,7 @@ As always, there's a few things worth highlighting like [getting root](./hints/h
 | Angel Candysalt       | KC    | 1     | Great Room                  | -                                       | [Splunk!](./objectives/o9.md)                       |
 | Fitzy Shortstack      | KC    | 1     | Entry                       | [Yara Analysis](./hints/h9.md)          | [Splunk!](./objectives/o9.md)                       |
 | Noxious O’Dor         | FF    | 16    | Jack's Restroom             | [IMDS Exploration](./hints/h10.md)      | [Now Hiring!](./objectives/o10.md)                  |
-| Pat Tronizer          | FF    | 2     | Frostfest Talks Lobby       | -                                       | [Customer Complaint Analysis](./objectives/o11.md)  |
+| Pat Tronizer          | FF    | 2     | Talks Lobby                 | -                                       | [Customer Complaint Analysis](./objectives/o11.md)  |
 | Tinsel Upatree        | KC    | 1     | Kitchen                     | [Strace Ltrace Retrace](./hints/h11.md) | [Customer Complaint Analysis](./objectives/o11.md)  |
 | Ingreta Tude          | FF    | 16    | Jack's Studio               | -                                       | [Frost Tower Website Checkup](./objectives/o12.md)  |
 | Ribb Bonbowford       | KC    | 1     | Dining Room                 | [The Elf C0de](./hints/h12.md)          | [Frost Tower Website Checkup](./objectives/o12.md)  |

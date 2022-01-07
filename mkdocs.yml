@@ -65,6 +65,7 @@ markdown_extensions:
 nav:
 - Welcome: 'index.md'
 - Objectives:
+  - KringleCon Orientation: 'objectives/o1.md'
   - Where is Caramel Santaigo?: 'objectives/o2.md'
   - Thaw Frost Tower's Entrance: 'objectives/o3.md'
   - Slot Machine Investigation: 'objectives/o4.md'
@@ -78,7 +79,7 @@ nav:
   - Frost Tower Website Checkup: 'objectives/o12.md'
   - FPGA Programming: 'objectives/o13.md'
 - Terminal Hints:
-  - Exif Metadata: 'hints/h2.md'
+  - Document Analysis: 'hints/h2.md'
   - Grepping for Gold: 'hints/h3.md'
   - Logic Munchers: 'hints/h4.md'
   - IPv6 Sandbox: 'hints/h5.md'

@@ -53,7 +53,7 @@ Using [`get_ssrf_data.py`](./tools/objectives/o10/get_ssrf_data.py) to retrieve 
 
 ## Carmen Sandiego
 
-The [first challenge](./objectives/o2.md) is a reference to the 1985 video game [Where in the World is Carmen Sandiego](https://en.wikipedia.org/wiki/Where_in_the_World_Is_Carmen_Sandiego%3F_(1985_video_game)).
+The [second challenge](./objectives/o2.md) is a reference to the 1985 video game [Where in the World is Carmen Sandiego](https://en.wikipedia.org/wiki/Where_in_the_World_Is_Carmen_Sandiego%3F_(1985_video_game)).
 
 ![Carmen Sandiego](./img/misc/carmen_sandiego.png)
 
