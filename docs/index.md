@@ -65,28 +65,28 @@ As always, there's a few things worth highlighting like [getting root](./hints/h
 ## NPC locations
 
 | :material-account: Name | :material-home: Event | :material-pound: Floor | :material-map-marker: Area | :material-gamepad: Challenge | :material-format-list-bulleted-type: Type |
-| :-------------------- | :----: | :----: | :-------------------------- | :------------------------------------------------- | :-------: |
-| Jingle Ringford       | NP    | -     | Orientation                 | [KringleCon Orientation](objectives/o1.md)         | O |
-| Tangle Coalbox        | KC    | 1     | Courtyard                   | [Where is Caramel Santaigo?](objectives/o2.md)     | O |
-| Piney Sappington      | KC    | 1     | Courtyard                   | [Document Analysis](./hints/h2.md)                 | T |
-| Grimy McTrollkins     | NP    | -     | The North Pole              | [Thaw Frost Tower's Entrance](./objectives/o3.md)  | O |
-| Greasy GopherGuts     | NP    | -     | The North Pole              | [Grepping for Gold](./hints/h3.md)                 | T |
-| Hubris Selfington     | FF    | 1     | Frost Tower Lobby           | [Slot Machine Investigation](./objectives/o4.md)   | O |
-| Noel Boetie           | NP    | -     | The North Pole              | [Logic Munchers](./hints/h4.md)                    | T |
-| Morcel Nougat         | KC    | 2     | Speaker UNprep. Room        | [Strange USB Device](./objectives/o5.md)           | O |
-| Jewel Loggins         | KC    | 2     | Talks Lobby                 | [IPv6 Sandbox](./hints/h5.md)                      | T |
-| Ruby Cyster           | FF    | 16    | Jack's Office               | [Shellcode Primer](./objectives/o6.md), [Printer Exploitation](./objectives/o7.md) | O |
-| Chimney Scissorsticks | KC    | R     | NetWars                     | [Holiday Hero](./hints/h6.md)                      | T |
-| Eve Snowshoes         | KC    | 3     | Santa's office              | [HoHo... No](./hints/h8.md), [Kerberoasting on an Open Fire](./objectives/o8.md) | T, O |
-| Angel Candysalt       | KC    | 1     | Great Room                  | [Splunk!](./objectives/o9.md)                      | O |
-| Fitzy Shortstack      | KC    | 1     | Entry                       | [Yara Analysis](./hints/h9.md)                     | T |
-| Noxious O’Dor         | FF    | 16    | Jack's Restroom             | [IMDS Exploration](./hints/h10.md), [Now Hiring!](./objectives/o10.md) | T, O |
-| Pat Tronizer          | FF    | 2     | Talks Lobby                 | [Customer Complaint Analysis](./objectives/o11.md) | O |
-| Tinsel Upatree        | KC    | 1     | Kitchen                     | [Strace Ltrace Retrace](./hints/h11.md)            | T |
-| Ingreta Tude          | FF    | 16    | Jack's Studio               | [Frost Tower Website Checkup](./objectives/o12.md) | O |
-| Ribb Bonbowford       | KC    | 1     | Dining Room                 | [The Elf C0de](./hints/h12.md)                     | T |
-| Crunchy Squishter     | FF    | R     | Frost Tower Rooftop         | [FPGA Programming](./objectives/o13.md)            | O |
-| Grody Goiterson       | FF    | R     | Frost tower Lobby           | [Frostavator](./hints/h13.md)                      | T |
+| :-------------------- | :---: | :---: | :------------------- | :------------------------------------------------- | :---: |
+| Jingle Ringford       | NP    | -     | Orientation          | [KringleCon Orientation](objectives/o1.md)         | O     |
+| Tangle Coalbox        | KC    | 1     | Courtyard            | [Where is Caramel Santaigo?](objectives/o2.md)     | O     |
+| Piney Sappington      | KC    | 1     | Courtyard            | [Document Analysis](./hints/h2.md)                 | T     |
+| Grimy McTrollkins     | NP    | -     | The North Pole       | [Thaw Frost Tower's Entrance](./objectives/o3.md)  | O     |
+| Greasy GopherGuts     | NP    | -     | The North Pole       | [Grepping for Gold](./hints/h3.md)                 | T     |
+| Hubris Selfington     | FF    | 1     | Frost Tower Lobby    | [Slot Machine Investigation](./objectives/o4.md)   | O     |
+| Noel Boetie           | NP    | -     | The North Pole       | [Logic Munchers](./hints/h4.md)                    | T     |
+| Morcel Nougat         | KC    | 2     | Speaker UNprep. Room | [Strange USB Device](./objectives/o5.md)           | O     |
+| Jewel Loggins         | KC    | 2     | Talks Lobby          | [IPv6 Sandbox](./hints/h5.md)                      | T     |
+| Ruby Cyster           | FF    | 16    | Jack's Office        | [Shellcode Primer](./objectives/o6.md), [Printer Exploitation](./objectives/o7.md) | O     |
+| Chimney Scissorsticks | KC    | R     | NetWars              | [Holiday Hero](./hints/h6.md)                      | T     |
+| Eve Snowshoes         | KC    | 3     | Santa's office       | [HoHo... No](./hints/h8.md), [Kerberoasting on an Open Fire](./objectives/o8.md) | T, O  |
+| Angel Candysalt       | KC    | 1     | Great Room           | [Splunk!](./objectives/o9.md)                      | O     |
+| Fitzy Shortstack      | KC    | 1     | Entry                | [Yara Analysis](./hints/h9.md)                     | T     |
+| Noxious O’Dor         | FF    | 16    | Jack's Restroom      | [IMDS Exploration](./hints/h10.md), [Now Hiring!](./objectives/o10.md) | T, O  |
+| Pat Tronizer          | FF    | 2     | Talks Lobby          | [Customer Complaint Analysis](./objectives/o11.md) | O     |
+| Tinsel Upatree        | KC    | 1     | Kitchen              | [Strace Ltrace Retrace](./hints/h11.md)            | T     |
+| Ingreta Tude          | FF    | 16    | Jack's Studio        | [Frost Tower Website Checkup](./objectives/o12.md) | O     |
+| Ribb Bonbowford       | KC    | 1     | Dining Room          | [The Elf C0de](./hints/h12.md)                     | T     |
+| Crunchy Squishter     | FF    | R     | Frost Tower Rooftop  | [FPGA Programming](./objectives/o13.md)            | O     |
+| Grody Goiterson       | FF    | R     | Frost tower Lobby    | [Frostavator](./hints/h13.md)                      | T     |
 
 
 ## Conclusion
